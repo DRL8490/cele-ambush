@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>CELE Ambush Command Center — KIPPAP 126-Topic Spiral War Plan</title>
+  <meta name="description" content="Installable offline Civil Engineering Licensure Exam (CELE) command center built on cele_ambush_curriculum.json featuring 126 KIPPAP topics across MSTE (47), HPGE (31), and PSAD (48)." />
+  <meta name="theme-color" content="#0b1118" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="CELE Ambush" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180x180.png" />
+  <link rel="apple-touch-icon" sizes="167x167" href="icons/apple-touch-icon-167x167.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon-152x152.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Top Command Header -->
+    <header class="topbar" id="command-topbar">
+      <div class="brand-block">
+        <div class="brand-emblem" aria-hidden="true">CELE</div>
+        <div>
+          <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <h1 id="app-title-heading">CELE Ambush Command Center</h1>
+            <span class="pwa-status-pill" id="pwa-standalone-pill" style="display: none;">✓ STANDALONE APP</span>
+          </div>
+          <p class="brand-subtitle" id="curriculum-source-label">cele_ambush_curriculum.json · 126 Topics · MSTE (47) · HPGE (31) · PSAD (48)</p>
+        </div>
+      </div>
+
+      <div class="telemetry-strip" aria-label="Readiness Telemetry">
+        <div class="stat-chip">
+          <span class="label">Career XP</span>
+          <span class="val" id="stat-career-xp">0 XP</span>
+        </div>
+        <div class="stat-chip">
+          <span class="label">Cleared</span>
+          <span class="val" id="stat-cleared-count">0 / 126</span>
+        </div>
+        <div class="stat-chip">
+          <span class="label">Decaying (&gt;7d)</span>
+          <span class="val" id="stat-decaying-count" style="color: var(--status-decaying);">0</span>
+        </div>
+        <div class="stat-chip">
+          <span class="label">Spiral-Locked</span>
+          <span class="val" id="stat-spiral-count" style="color: var(--status-gold);">0</span>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+        <button type="button" class="btn btn-install" id="btn-open-install">📲 Install on iPad / iPhone</button>
+        <button type="button" class="btn btn-primary" id="btn-open-builder">+ Custom Puzzle</button>
+        <button type="button" class="btn" id="btn-open-json">Sync / Backup JSON</button>
+        <button type="button" class="btn btn-gold" id="btn-demo-decay" title="Seed sample 7-14 day history to preview Spiral Target & Amber Decay">Simulate Spiral Window</button>
+      </div>
+    </header>
+
+    <!-- 14-Week Spiral War Plan Bar (from spiralSchedule in cele_ambush_curriculum.json) -->
+    <section class="warplan-bar" id="warplan-section" aria-label="14-Week Spiral War Plan">
+      <div class="warplan-top">
+        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+          <span class="target-kicker">14-WEEK SPIRAL WAR PLAN</span>
+          <select id="schedule-week-select" class="input-field" style="padding: 5px 10px; font-size: 12.5px; min-width: 240px;" aria-label="Select Schedule Week"></select>
+          <button type="button" class="btn btn-sm" id="btn-load-scheduled-pair" title="Load selected day's Primary & Spiral pairs into the twin 15-min cards">Sync Day Targets</button>
+        </div>
+        <div class="day-pills" id="schedule-day-pills" role="tablist" aria-label="Day of Week"></div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; font-size: 12.5px; color: var(--text-secondary);">
+        <div id="schedule-day-summary">Loading War Plan schedule...</div>
+        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <button type="button" class="btn btn-sm" id="btn-toggle-day-complete">Mark Day Checkoff</button>
+          <button type="button" class="btn btn-amber btn-sm" id="btn-toggle-holiday-preview" title="Preview Dec 21 - Jan 3 Mandatory Cognitive Recovery protocol">Dec 21–Jan 3 Shutdown Rule</button>
+        </div>
+      </div>
+      <div class="holiday-banner" id="holiday-shutdown-banner" style="display: none;"></div>
+    </section>
+
+    <!-- Daily 30-Minute Spiral Loop UI -->
+    <section class="spiral-loop-grid" id="loop-section" aria-label="Daily 30-Minute Spiral Loop">
+      <!-- Primary Target Card (15-min) -->
+      <article class="target-card" id="primary-target-card">
+        <div>
+          <div class="target-header">
+            <div>
+              <div class="target-kicker" id="primary-kicker">PRIMARY TARGET · 15-MIN FRONTIER</div>
+              <h2 class="target-title" id="primary-topic-title">Loading...</h2>
+              <div class="target-meta" id="primary-topic-meta">Queue Frontier</div>
+            </div>
+            <div class="timer-box">
+              <div class="timer-readout" id="primary-timer-display">15:00</div>
+              <div class="target-meta" id="primary-timer-state">STANDBY</div>
+            </div>
+          </div>
+          <div class="pair-chips" id="primary-pair-chips"></div>
+        </div>
+
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="primary-timer-bar" style="width: 100%;"></div>
+        </div>
+
+        <div class="target-controls">
+          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+            <button type="button" class="btn btn-primary btn-sm" id="btn-engage-primary">Engage Primary</button>
+            <button type="button" class="btn btn-sm" id="btn-toggle-primary-timer">Start Timer</button>
+            <button type="button" class="btn btn-sm" id="btn-reset-primary-timer">Reset 15:00</button>
+          </div>
+          <button type="button" class="btn btn-sm" id="btn-cycle-primary" title="Rotate to next active topic">Next in Queue ↻</button>
+        </div>
+      </article>
+
+      <!-- Spiral Target Card (15-min, 7-14 days ago / Scheduled Spiral Pair) -->
+      <article class="target-card spiral-card" id="spiral-target-card">
+        <div>
+          <div class="target-header">
+            <div>
+              <div class="target-kicker" id="spiral-kicker">SPIRAL TARGET · 7–14 DAY RETENTION</div>
+              <h2 class="target-title" id="spiral-topic-title">Scanning 7–14d Window...</h2>
+              <div class="target-meta" id="spiral-topic-meta">Topics completed 7–14 days ago</div>
+            </div>
+            <div class="timer-box">
+              <div class="timer-readout" id="spiral-timer-display">15:00</div>
+              <div class="target-meta" id="spiral-timer-state">STANDBY</div>
+            </div>
+          </div>
+          <div class="pair-chips" id="spiral-pair-chips"></div>
+        </div>
+
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="spiral-timer-bar" style="width: 100%;"></div>
+        </div>
+
+        <div class="target-controls">
+          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+            <button type="button" class="btn btn-gold btn-sm" id="btn-engage-spiral">Engage Spiral</button>
+            <button type="button" class="btn btn-sm" id="btn-toggle-spiral-timer">Start Timer</button>
+            <button type="button" class="btn btn-sm" id="btn-reset-spiral-timer">Reset 15:00</button>
+          </div>
+          <button type="button" class="btn btn-sm" id="btn-cycle-spiral" title="Cycle eligible 7-14d / scheduled spiral nodes">Cycle Spiral ↻</button>
+        </div>
+      </article>
+    </section>
+
+    <!-- Workbench: Multi-Stage Puzzle Engine + Active Node Tactical Dossier -->
+    <main class="workbench-grid" id="workbench-section">
+      <!-- Left: 3-Stage Numerical/Formula Unlock Engine -->
+      <section class="panel" id="puzzle-engine-panel" aria-labelledby="puzzle-panel-heading">
+        <div class="panel-header">
+          <div>
+            <div class="target-meta" id="arena-sector-badge">SECTOR</div>
+            <h2 class="panel-title" id="puzzle-panel-heading">3-Stage Ambush Puzzle Engine</h2>
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <label for="puzzle-selector" class="target-meta">Problem Bank:</label>
+            <select id="puzzle-selector" class="input-field" style="padding: 5px 9px; font-size: 12px;"></select>
+            <button type="button" class="btn btn-sm" id="btn-reset-attempt" title="Restart current puzzle attempt">Retry</button>
+          </div>
+        </div>
+
+        <!-- Tactical Rescue System & 100 XP Integrity Bar -->
+        <div class="xp-rescue-bar">
+          <div class="xp-meter-wrap">
+            <span class="xp-badge" id="attempt-xp-readout">100 / 100 XP</span>
+            <div class="progress-track" style="max-width: 160px;">
+              <div class="progress-fill" id="attempt-xp-bar" style="width: 100%; background: var(--status-cleared);"></div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button type="button" class="btn btn-sm" id="btn-use-hint">Hint / Formula (-20 XP)</button>
+            <button type="button" class="btn btn-amber btn-sm" id="btn-tactical-rescue">Tactical Rescue (-30 XP)</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Hint & Tactical Rescue Drawers -->
+        <div class="rescue-drawer hint-drawer" id="hint-drawer" style="display: none;"></div>
+        <div class="rescue-drawer tactical-drawer" id="tactical-drawer" style="display: none;"></div>
+
+        <!-- Problem Stem -->
+        <div class="problem-stem-box" id="puzzle-stem-text"></div>
+
+        <!-- 3 Stages -->
+        <div class="stage-stack">
+          <!-- Stage 1 -->
+          <div class="stage-box" id="stage-1-box">
+            <div class="stage-head">
+              <span class="stage-tag" id="stage-1-tag">STAGE 1 · GOVERNING EQUATION / FBD CONDITION</span>
+              <span class="target-meta" id="stage-1-status">Awaiting Selection</span>
+            </div>
+            <div id="stage-1-prompt" style="font-size: 13px; color: var(--text-secondary);">Identify the governing formula or equilibrium relationship for this setup:</div>
+            <div class="eq-options-grid" id="stage-1-options"></div>
+            <div class="feedback-msg" id="stage-1-feedback"></div>
+          </div>
+
+          <!-- Stage 2 -->
+          <div class="stage-box is-locked" id="stage-2-box">
+            <div class="stage-head">
+              <span class="stage-tag" id="stage-2-tag">STAGE 2 · INTERMEDIATE COMPUTATION (±1% TOLERANCE)</span>
+              <span class="target-meta" id="stage-2-status">Locked</span>
+            </div>
+            <div id="stage-2-prompt" style="font-size: 13.5px;"></div>
+            <div class="numeric-row">
+              <button type="button" class="btn btn-sm sign-toggle-btn" id="btn-neg-stage-2" title="Toggle minus sign (±) on iPhone/iPad keypad" disabled>±</button>
+              <input type="text" inputmode="decimal" enterkeyhint="done" autocomplete="off" autocorrect="off" spellcheck="false" class="input-field input-mono" id="stage-2-input" placeholder="Enter value..." disabled />
+              <span class="unit-pill" id="stage-2-unit">unit</span>
+              <button type="button" class="btn btn-primary btn-sm" id="btn-verify-stage-2" disabled>Verify Stage 2</button>
+            </div>
+            <div class="feedback-msg" id="stage-2-feedback"></div>
+          </div>
+
+          <!-- Stage 3 -->
+          <div class="stage-box is-locked" id="stage-3-box">
+            <div class="stage-head">
+              <span class="stage-tag" id="stage-3-tag">STAGE 3 · FINAL NODE UNLOCK (±1% TOLERANCE)</span>
+              <span class="target-meta" id="stage-3-status">Locked</span>
+            </div>
+            <div id="stage-3-prompt" style="font-size: 13.5px;"></div>
+            <div class="numeric-row">
+              <button type="button" class="btn btn-sm sign-toggle-btn" id="btn-neg-stage-3" title="Toggle minus sign (±) on iPhone/iPad keypad" disabled>±</button>
+              <input type="text" inputmode="decimal" enterkeyhint="done" autocomplete="off" autocorrect="off" spellcheck="false" class="input-field input-mono" id="stage-3-input" placeholder="Enter final answer..." disabled />
+              <span class="unit-pill" id="stage-3-unit">unit</span>
+              <button type="button" class="btn btn-primary btn-sm" id="btn-verify-stage-3" disabled>Unlock Node</button>
+            </div>
+            <div class="feedback-msg" id="stage-3-feedback"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right: Node Dossier, Rescue Links, Time-Decay Controls & Quick Curriculum Drop -->
+      <aside class="panel" id="node-inspector-panel" aria-labelledby="inspector-heading">
+        <div class="panel-header">
+          <div>
+            <div class="target-meta">SELECTED NODE DOSSIER</div>
+            <h2 class="panel-title" id="inspector-heading">Node Telemetry &amp; Controls</h2>
+          </div>
+          <span class="unit-pill" id="inspector-state-badge">ACTIVE</span>
+        </div>
+
+        <div id="inspector-details" style="display: flex; flex-direction: column; gap: 12px;">
+          <div>
+            <div class="target-meta" id="inspector-code-cat">T-001 · MSTE · Algebra</div>
+            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 2px;">
+              <span style="font-size: 16px; font-weight: 700;" id="inspector-title">Topic Title</span>
+              <span class="hometurf-tag" id="inspector-hometurf" style="display: none;">HOME TURF</span>
+            </div>
+            <div class="target-meta" id="inspector-schedule-slot" style="margin-top: 3px;">Assigned: Week 1 · Day 1</div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px;">
+            <div class="stat-chip" style="flex-direction: column; gap: 2px;">
+              <span class="label">Last Reviewed</span>
+              <span class="val" id="inspector-last-reviewed">Never</span>
+            </div>
+            <div class="stat-chip" style="flex-direction: column; gap: 2px;">
+              <span class="label">Reviews / XP Earned</span>
+              <span class="val" id="inspector-reviews-xp">0 · 0 XP</span>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 7px;">
+            <button type="button" class="btn btn-sm" id="btn-set-as-primary">Set Primary Target</button>
+            <button type="button" class="btn btn-gold btn-sm" id="btn-set-as-spiral">Set Spiral Target</button>
+            <button type="button" class="btn btn-sm" id="btn-encode-for-node">+ Encode KIPPAP Problem</button>
+          </div>
+
+          <div style="border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+            <div class="form-label" style="margin-bottom: 6px;">Node Status &amp; Decay Testing Controls</div>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+              <button type="button" class="btn btn-sm" id="btn-mark-active">Mark Active</button>
+              <button type="button" class="btn btn-sm" id="btn-mark-cleared">Mark Cleared (Today)</button>
+              <button type="button" class="btn btn-amber btn-sm" id="btn-age-10d" title="Set last review to 10 days ago to trigger >7d Decay & 7-14d Spiral eligibility">Backdate 10d (Decay)</button>
+              <button type="button" class="btn btn-gold btn-sm" id="btn-mark-spiral-gold">Spiral-Lock (Gold)</button>
+            </div>
+          </div>
+
+          <!-- Quick Curriculum File Loader -->
+          <div style="border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+            <div class="form-label" style="margin-bottom: 6px;">Curriculum Context Sync (<code>cele_ambush_curriculum.json</code>)</div>
+            <div class="dropzone" id="quick-json-dropzone" tabindex="0" role="button" aria-label="Drop cele_ambush_curriculum.json here or click to browse">
+              <div style="font-weight: 600; font-size: 12.5px;">Drop <code>cele_ambush_curriculum.json</code> or Tap to Sync</div>
+              <div class="target-meta" style="margin-top: 3px;">Native support for <code>appConfig</code>, 126 <code>topics</code>, <code>spiralSchedule</code> &amp; <code>samplePuzzles</code></div>
+              <input type="file" id="quick-json-file-input" accept=".json,application/json" style="display: none;" />
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- 126-Node Interactive Decay Grid -->
+    <section class="panel" id="matrix-section" aria-labelledby="matrix-heading">
+      <div class="panel-header">
+        <div>
+          <div class="target-meta">KIPPAP 3-SECTOR SYLLABUS MAP (T-001 TO T-126)</div>
+          <h2 class="panel-title" id="matrix-heading">126-Node Decay &amp; Mastery Matrix</h2>
+        </div>
+        <input type="search" class="input-field" id="node-search-input" placeholder="Search T-ID, topic, category, or W#..." style="min-width: 260px;" />
+      </div>
+
+      <div class="filter-toolbar">
+        <div class="tab-group" id="sector-filter-tabs" role="tablist" aria-label="Sector Filter">
+          <button type="button" class="pill-btn active" data-sector="ALL" id="tab-sec-all">All Sectors (126)</button>
+          <button type="button" class="pill-btn" data-sector="MSTE" id="tab-sec-mste">MSTE (47)</button>
+          <button type="button" class="pill-btn" data-sector="HPGE" id="tab-sec-hpge">HPGE (31)</button>
+          <button type="button" class="pill-btn" data-sector="PSAD" id="tab-sec-psad">PSAD (48)</button>
+          <button type="button" class="pill-btn" data-sector="HOMETURF" id="tab-sec-ht">Home Turf (20)</button>
+        </div>
+
+        <div class="tab-group" id="state-filter-tabs" role="tablist" aria-label="Status Filter">
+          <button type="button" class="pill-btn active" data-state="ALL">All States</button>
+          <button type="button" class="pill-btn" data-state="active">Active</button>
+          <button type="button" class="pill-btn" data-state="cleared">Cleared</button>
+          <button type="button" class="pill-btn" data-state="decaying">Decaying (&gt;7d)</button>
+          <button type="button" class="pill-btn" data-state="spiral">Spiral-Locked</button>
+          <button type="button" class="pill-btn" data-state="locked">Locked</button>
+        </div>
+      </div>
+
+      <div class="legend-row">
+        <span class="legend-item"><span class="dot dot-locked"></span> Locked</span>
+        <span class="legend-item"><span class="dot dot-active"></span> Active Frontier</span>
+        <span class="legend-item"><span class="dot dot-cleared"></span> Cleared (&le;7d, Green)</span>
+        <span class="legend-item"><span class="dot dot-decaying"></span> Decaying (&gt;7d since review, Amber)</span>
+        <span class="legend-item"><span class="dot dot-spiral"></span> Spiral-Locked (7–14d Reinforced, Gold)</span>
+        <span class="legend-item"><span class="hometurf-tag">HOME TURF</span> Surveying / Transpo / Construction</span>
+      </div>
+
+      <div class="nodes-grid" id="nodes-grid-container"></div>
+    </section>
+  </div>
+
+  <!-- Custom Puzzle Builder Modal -->
+  <div class="modal-backdrop" id="builder-modal" role="dialog" aria-modal="true" aria-labelledby="builder-modal-title">
+    <div class="modal-card">
+      <div class="panel-header">
+        <h2 class="panel-title" id="builder-modal-title">Custom KIPPAP 3-Stage Puzzle Builder</h2>
+        <button type="button" class="btn btn-sm" id="btn-close-builder">Close ✕</button>
+      </div>
+      <form id="custom-puzzle-form" class="form-grid">
+        <div class="form-group">
+          <label class="form-label" for="builder-topic-select">Target CELE Node (T-001 to T-126)</label>
+          <select id="builder-topic-select" class="input-field" required></select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="builder-source-input">Puzzle ID / Handout Source</label>
+          <input type="text" id="builder-source-input" class="input-field" placeholder="e.g., PUZ-004 · KIPPAP MSTE Handout #4" required />
+        </div>
+        <div class="form-group full">
+          <label class="form-label" for="builder-stem-input">Problem Situation / Prompt</label>
+          <textarea id="builder-stem-input" class="input-field" rows="3" placeholder="Encode the full board-exam problem statement and given parameters..." required></textarea>
+        </div>
+        <div class="form-group full">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <label class="form-label" for="builder-eq-correct">Stage 1: Governing Equation / FBD Condition (Correct)</label>
+            <button type="button" class="btn btn-sm" id="btn-autofill-distractors">Auto-Draft Distractors</button>
+          </div>
+          <input type="text" id="builder-eq-correct" class="input-field input-mono" placeholder="e.g., h_cr = 0.0675 * K^2" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="builder-eq-d1">Stage 1 Distractor A</label>
+          <input type="text" id="builder-eq-d1" class="input-field input-mono" placeholder="Plausible wrong formula 1" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="builder-eq-d2">Stage 1 Distractor B</label>
+          <input type="text" id="builder-eq-d2" class="input-field input-mono" placeholder="Plausible wrong formula 2" required />
+        </div>
+        <div class="form-group full">
+          <label class="form-label" for="builder-eq-d3">Stage 1 Distractor C (Optional)</label>
+          <input type="text" id="builder-eq-d3" class="input-field input-mono" placeholder="Plausible wrong formula 3" />
+        </div>
+        <div class="form-group full">
+          <label class="form-label" for="builder-s2-prompt">Stage 2 Instruction (Intermediate Computation)</label>
+          <input type="text" id="builder-s2-prompt" class="input-field" placeholder="e.g., Compute the square of the distance in km (K^2)." required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="builder-s2-ans">Stage 2 Expected Value (±1%)</label>
+          <input type="number" step="any" id="builder-s2-ans" class="input-field input-mono" placeholder="72.25" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="builder-s2-unit">Stage 2 Unit</label>
+          <input type="text" id="builder-s2-unit" class="input-field input-mono" placeholder="km^2" required />
+        </div>
+        <div class="form-group full">
+          <label class="form-label" for="builder-s3-prompt">Stage 3 Instruction (Final Node Unlock)</label>
+          <input type="text" id="builder-s3-prompt" class="input-field" placeholder="e.g., Compute the combined curvature and refraction correction (h_cr)." required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="builder-s3-ans">Stage 3 Expected Value (±1%)</label>
+          <input type="number" step="any" id="builder-s3-ans" class="input-field input-mono" placeholder="4.877" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="builder-s3-unit">Stage 3 Unit</label>
+          <input type="text" id="builder-s3-unit" class="input-field input-mono" placeholder="m" required />
+        </div>
+        <div class="form-group full">
+          <label class="form-label" for="builder-hint-input">Formula Hint &amp; Solution Note</label>
+          <input type="text" id="builder-hint-input" class="input-field" placeholder="Shown on Hint (-20 XP) and Stage 3 completion..." required />
+        </div>
+        <div class="form-group full" style="display: flex; flex-direction: row; justify-content: flex-end; gap: 8px; margin-top: 4px;">
+          <button type="button" class="btn" id="btn-cancel-builder">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="btn-save-puzzle">Save to Bank &amp; Load</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- JSON Import / Export & Reset Modal -->
+  <div class="modal-backdrop" id="json-modal" role="dialog" aria-modal="true" aria-labelledby="json-modal-title">
+    <div class="modal-card">
+      <div class="panel-header">
+        <h2 class="panel-title" id="json-modal-title"><code>cele_ambush_curriculum.json</code> Sync &amp; iOS Backup</h2>
+        <button type="button" class="btn btn-sm" id="btn-close-json">Close ✕</button>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <button type="button" class="btn btn-primary" id="btn-download-backup">⬇ Export JSON</button>
+          <button type="button" class="btn btn-gold" id="btn-ios-share-json">📤 Share / Save to Files (iOS)</button>
+          <button type="button" class="btn" id="btn-upload-json-trigger">⬆ Import JSON File</button>
+          <input type="file" id="modal-json-file-input" accept=".json,application/json" style="display: none;" />
+          <button type="button" class="btn btn-danger" id="btn-factory-reset">Factory Reset</button>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="json-textarea">Inspect or Paste <code>cele_ambush_curriculum.json</code> Schema</label>
+          <textarea id="json-textarea" class="input-field input-mono" rows="9" placeholder="Paste cele_ambush_curriculum.json or full backup JSON here..."></textarea>
+        </div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px;">
+          <button type="button" class="btn" id="btn-copy-json">Copy JSON</button>
+          <button type="button" class="btn btn-primary" id="btn-apply-pasted-json">Import Pasted JSON</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- iPad & iPhone Standalone Installation & Offline Readiness Modal -->
+  <div class="modal-backdrop" id="install-modal" role="dialog" aria-modal="true" aria-labelledby="install-modal-title">
+    <div class="modal-card">
+      <div class="panel-header">
+        <h2 class="panel-title" id="install-modal-title">📲 Install Standalone App on iPad &amp; iPhone</h2>
+        <button type="button" class="btn btn-sm" id="btn-close-install">Close ✕</button>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 8px;">
+          <div class="stat-chip" style="flex-direction: column; gap: 2px;">
+            <span class="label">Launch Mode</span>
+            <span class="val" id="pwa-mode-readout">Checking...</span>
+          </div>
+          <div class="stat-chip" style="flex-direction: column; gap: 2px;">
+            <span class="label">Offline Service Worker</span>
+            <span class="val" id="pwa-sw-readout">Checking...</span>
+          </div>
+          <div class="stat-chip" style="flex-direction: column; gap: 2px;">
+            <span class="label">Durable Storage</span>
+            <span class="val" id="pwa-storage-readout">LocalStorage Active</span>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" id="btn-native-install-prompt" style="display: none; width: 100%; padding: 10px;">
+          ⬇ Install CELE Ambush App Now
+        </button>
+
+        <div class="install-steps-grid">
+          <div class="install-step-card">
+            <div class="target-kicker">IPAD (SAFARI · IPADOS)</div>
+            <ol class="install-list">
+              <li>Open this app's URL in <strong>Safari</strong> on your iPad.</li>
+              <li>Tap the <strong>Share</strong> icon (square with upward arrow <code>↑</code>) in the top-right address bar.</li>
+              <li>Scroll down and tap <strong>Add to Home Screen</strong>, then tap <strong>Add</strong>.</li>
+              <li>Launch <strong>CELE Ambush</strong> full-screen or in <strong>Split View</strong> beside GoodNotes / Notability — works 100% offline!</li>
+            </ol>
+          </div>
+          <div class="install-step-card">
+            <div class="target-kicker" style="color: var(--status-gold);">IPHONE (SAFARI · IOS)</div>
+            <ol class="install-list">
+              <li>Open this app's URL in <strong>Safari</strong> on your iPhone.</li>
+              <li>Tap the <strong>Share</strong> button (<code>↑</code>) at the bottom navigation bar.</li>
+              <li>Tap <strong>Add to Home Screen</strong> &rarr; <strong>Add</strong>.</li>
+              <li>Opens edge-to-edge without browser bars, keeps timers accurate when locked, and includes the <code>±</code> keypad toggle for negative values.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div style="padding: 11px 13px; background: var(--bg-input); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px;">
+          <div style="font-size: 12.5px; color: var(--text-secondary);">
+            <strong style="color: var(--text-primary);">Zero-Server Portable File:</strong> AirDrop or save a self-contained single-file <code>.html</code> snapshot (all 126 topics + progress embedded) directly to the <strong>Files</strong> app on iPad or iPhone.
+          </div>
+          <button type="button" class="btn btn-gold btn-sm" id="btn-export-portable-html">📤 Export / AirDrop Portable HTML</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pinned iPhone & iPad Compact Bottom Navigation Bar -->
+  <nav class="ios-bottom-nav" id="ios-bottom-nav" aria-label="Quick Mobile Navigation">
+    <button type="button" class="ios-nav-btn active" data-nav="loop">
+      <span class="ios-nav-icon">⏱</span>
+      <span>15m Loop</span>
+    </button>
+    <button type="button" class="ios-nav-btn" data-nav="arena">
+      <span class="ios-nav-icon">⚡</span>
+      <span>Puzzle Arena</span>
+    </button>
+    <button type="button" class="ios-nav-btn" data-nav="matrix">
+      <span class="ios-nav-icon">🧩</span>
+      <span>126 Nodes</span>
+    </button>
+    <button type="button" class="ios-nav-btn" data-nav="install">
+      <span class="ios-nav-icon">📲</span>
+      <span>Install / Sync</span>
+    </button>
+  </nav>
+
+  <div class="toast-banner" id="toast-banner" role="status" aria-live="polite"></div>
+
+  <script src="curriculum.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+

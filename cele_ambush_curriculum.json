@@ -1,0 +1,3766 @@
+{
+  "appConfig": {
+    "appName": "CELE Ambush Command Center",
+    "version": "1.0.0",
+    "primaryTimerMinutes": 15,
+    "spiralTimerMinutes": 15,
+    "startingIntegrityXP": 100,
+    "hintPenaltyXP": 20,
+    "tacticalRescuePenaltyXP": 30,
+    "decayThresholdDays": 7,
+    "holidayShutdown": {
+      "start": "2026-12-21",
+      "end": "2027-01-03",
+      "rule": "Zero studying. Mandatory cognitive recovery."
+    },
+    "notebookLMUrl": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+  },
+  "summaryCounts": {
+    "totalTopics": 126,
+    "MSTE": 47,
+    "HPGE": 31,
+    "PSAD": 48
+  },
+  "topics": [
+    {
+      "id": "T-001",
+      "index": 1,
+      "sector": "MSTE",
+      "category": "Algebra",
+      "name": "College Math",
+      "isHomeTurf": false,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=College+Math+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=College+Math+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-002",
+      "index": 2,
+      "sector": "MSTE",
+      "category": "Algebra",
+      "name": "Series",
+      "isHomeTurf": false,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Series+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Series+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-003",
+      "index": 3,
+      "sector": "MSTE",
+      "category": "Algebra",
+      "name": "Word Problems",
+      "isHomeTurf": false,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Word+Problems+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Word+Problems+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-004",
+      "index": 4,
+      "sector": "MSTE",
+      "category": "Algebra",
+      "name": "Permutation/Combination",
+      "isHomeTurf": false,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Permutation/Combination+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Permutation/Combination+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-005",
+      "index": 5,
+      "sector": "MSTE",
+      "category": "Algebra",
+      "name": "Probability and Statistics",
+      "isHomeTurf": false,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Probability+and+Statistics+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Probability+and+Statistics+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-006",
+      "index": 6,
+      "sector": "MSTE",
+      "category": "Algebra",
+      "name": "Probability Distribution",
+      "isHomeTurf": false,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Probability+Distribution+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Probability+Distribution+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-007",
+      "index": 7,
+      "sector": "MSTE",
+      "category": "Trigonometry",
+      "name": "Trigonometric Functions",
+      "isHomeTurf": false,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Trigonometric+Functions+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Trigonometric+Functions+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-008",
+      "index": 8,
+      "sector": "MSTE",
+      "category": "Trigonometry",
+      "name": "Inscribed/Circumscribed",
+      "isHomeTurf": false,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Inscribed/Circumscribed+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Inscribed/Circumscribed+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-009",
+      "index": 9,
+      "sector": "MSTE",
+      "category": "Trigonometry",
+      "name": "Spherical Trigonometry",
+      "isHomeTurf": false,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Spherical+Trigonometry+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Spherical+Trigonometry+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-010",
+      "index": 10,
+      "sector": "MSTE",
+      "category": "Geometry",
+      "name": "Geometry (2D)",
+      "isHomeTurf": false,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Geometry+(2D)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Geometry+(2D)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-011",
+      "index": 11,
+      "sector": "MSTE",
+      "category": "Geometry",
+      "name": "Geometry (3D)",
+      "isHomeTurf": false,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Geometry+(3D)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Geometry+(3D)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-012",
+      "index": 12,
+      "sector": "MSTE",
+      "category": "Geometry",
+      "name": "Circles",
+      "isHomeTurf": false,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Circles+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Circles+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-013",
+      "index": 13,
+      "sector": "MSTE",
+      "category": "Geometry",
+      "name": "Conic Sections",
+      "isHomeTurf": false,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Conic+Sections+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Conic+Sections+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-014",
+      "index": 14,
+      "sector": "MSTE",
+      "category": "Geometry",
+      "name": "Polar Coordinates",
+      "isHomeTurf": false,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Polar+Coordinates+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Polar+Coordinates+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-015",
+      "index": 15,
+      "sector": "MSTE",
+      "category": "Differential Calculus",
+      "name": "Derivative",
+      "isHomeTurf": false,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Derivative+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Derivative+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-016",
+      "index": 16,
+      "sector": "MSTE",
+      "category": "Differential Calculus",
+      "name": "Maxima/Minima",
+      "isHomeTurf": false,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Maxima/Minima+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Maxima/Minima+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-017",
+      "index": 17,
+      "sector": "MSTE",
+      "category": "Differential Calculus",
+      "name": "Related Rates",
+      "isHomeTurf": false,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Related+Rates+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Related+Rates+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-018",
+      "index": 18,
+      "sector": "MSTE",
+      "category": "Differential Calculus",
+      "name": "Optimization",
+      "isHomeTurf": false,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Optimization+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Optimization+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-019",
+      "index": 19,
+      "sector": "MSTE",
+      "category": "Integral Calculus",
+      "name": "Antiderivative",
+      "isHomeTurf": false,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Antiderivative+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Antiderivative+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-020",
+      "index": 20,
+      "sector": "MSTE",
+      "category": "Integral Calculus",
+      "name": "Arc Length",
+      "isHomeTurf": false,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Arc+Length+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Arc+Length+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-021",
+      "index": 21,
+      "sector": "MSTE",
+      "category": "Integral Calculus",
+      "name": "Solids of Revolution",
+      "isHomeTurf": false,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Solids+of+Revolution+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Solids+of+Revolution+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-022",
+      "index": 22,
+      "sector": "MSTE",
+      "category": "Integral Calculus",
+      "name": "Centroids/Moment of Inertia",
+      "isHomeTurf": false,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Centroids/Moment+of+Inertia+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Centroids/Moment+of+Inertia+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-023",
+      "index": 23,
+      "sector": "MSTE",
+      "category": "Economics",
+      "name": "Interest and Annuity",
+      "isHomeTurf": false,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Interest+and+Annuity+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Interest+and+Annuity+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-024",
+      "index": 24,
+      "sector": "MSTE",
+      "category": "Economics",
+      "name": "Depreciation",
+      "isHomeTurf": false,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Depreciation+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Depreciation+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-025",
+      "index": 25,
+      "sector": "MSTE",
+      "category": "Economics",
+      "name": "Inflation",
+      "isHomeTurf": false,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Inflation+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Inflation+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-026",
+      "index": 26,
+      "sector": "MSTE",
+      "category": "Economics",
+      "name": "Return of Investment (ROI)",
+      "isHomeTurf": false,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Return+of+Investment+(ROI)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Return+of+Investment+(ROI)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-027",
+      "index": 27,
+      "sector": "MSTE",
+      "category": "Economics",
+      "name": "Stocks/Bonds",
+      "isHomeTurf": false,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Stocks/Bonds+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Stocks/Bonds+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-028",
+      "index": 28,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Measurement",
+      "isHomeTurf": true,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Measurement+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Measurement+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-029",
+      "index": 29,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Probable Value",
+      "isHomeTurf": true,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Probable+Value+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Probable+Value+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-030",
+      "index": 30,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Tape Correction",
+      "isHomeTurf": true,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Tape+Correction+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Tape+Correction+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-031",
+      "index": 31,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Leveling",
+      "isHomeTurf": true,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Leveling+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Leveling+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-032",
+      "index": 32,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Curvature and Refraction",
+      "isHomeTurf": true,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Curvature+and+Refraction+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Curvature+and+Refraction+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-033",
+      "index": 33,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Stadia",
+      "isHomeTurf": true,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Stadia+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Stadia+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-034",
+      "index": 34,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "DMD/DPD",
+      "isHomeTurf": true,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=DMD/DPD+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=DMD/DPD+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-035",
+      "index": 35,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Traverse",
+      "isHomeTurf": true,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Traverse+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Traverse+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-036",
+      "index": 36,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Compass/Transit Rule",
+      "isHomeTurf": true,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Compass/Transit+Rule+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Compass/Transit+Rule+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-037",
+      "index": 37,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Horizontal Curve",
+      "isHomeTurf": true,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Horizontal+Curve+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Horizontal+Curve+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-038",
+      "index": 38,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Vertical Curve",
+      "isHomeTurf": true,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Vertical+Curve+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Vertical+Curve+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-039",
+      "index": 39,
+      "sector": "MSTE",
+      "category": "Surveying",
+      "name": "Earthworks",
+      "isHomeTurf": true,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Earthworks+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Earthworks+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-040",
+      "index": 40,
+      "sector": "MSTE",
+      "category": "Transportation Engineering",
+      "name": "Accident Analysis",
+      "isHomeTurf": true,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Accident+Analysis+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Accident+Analysis+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-041",
+      "index": 41,
+      "sector": "MSTE",
+      "category": "Transportation Engineering",
+      "name": "Pavement Design",
+      "isHomeTurf": true,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Pavement+Design+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Pavement+Design+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-042",
+      "index": 42,
+      "sector": "MSTE",
+      "category": "Transportation Engineering",
+      "name": "Sight Distance",
+      "isHomeTurf": true,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Sight+Distance+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Sight+Distance+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-043",
+      "index": 43,
+      "sector": "MSTE",
+      "category": "Transportation Engineering",
+      "name": "Railroad Engineering",
+      "isHomeTurf": true,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Railroad+Engineering+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Railroad+Engineering+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-044",
+      "index": 44,
+      "sector": "MSTE",
+      "category": "Transportation Engineering",
+      "name": "Ports and Harbor",
+      "isHomeTurf": true,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Ports+and+Harbor+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Ports+and+Harbor+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-045",
+      "index": 45,
+      "sector": "MSTE",
+      "category": "Construction Engineering",
+      "name": "Construction Methods",
+      "isHomeTurf": true,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Construction+Methods+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Construction+Methods+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-046",
+      "index": 46,
+      "sector": "MSTE",
+      "category": "Construction Engineering",
+      "name": "COSH",
+      "isHomeTurf": true,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=COSH+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=COSH+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-047",
+      "index": 47,
+      "sector": "MSTE",
+      "category": "Construction Engineering",
+      "name": "DPWH Manual",
+      "isHomeTurf": true,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=DPWH+Manual+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=DPWH+Manual+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-048",
+      "index": 48,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Water Properties",
+      "isHomeTurf": false,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Water+Properties+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Water+Properties+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-049",
+      "index": 49,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Hydrostatic Pressure",
+      "isHomeTurf": false,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Hydrostatic+Pressure+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Hydrostatic+Pressure+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-050",
+      "index": 50,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Buoyancy",
+      "isHomeTurf": false,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Buoyancy+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Buoyancy+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-051",
+      "index": 51,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Stability of Floating Bodies",
+      "isHomeTurf": false,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Stability+of+Floating+Bodies+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Stability+of+Floating+Bodies+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-052",
+      "index": 52,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Dams",
+      "isHomeTurf": false,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Dams+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Dams+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-053",
+      "index": 53,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Thin-Walled Pressure Vessels (Hydraulics)",
+      "isHomeTurf": false,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Thin-Walled+Pressure+Vessels+(Hydraulics)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Thin-Walled+Pressure+Vessels+(Hydraulics)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-054",
+      "index": 54,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Moving Vessel",
+      "isHomeTurf": false,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Moving+Vessel+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Moving+Vessel+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-055",
+      "index": 55,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Rotating Vessel",
+      "isHomeTurf": false,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Rotating+Vessel+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Rotating+Vessel+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-056",
+      "index": 56,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Energy Equation",
+      "isHomeTurf": false,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Energy+Equation+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Energy+Equation+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-057",
+      "index": 57,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Head Loss",
+      "isHomeTurf": false,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Head+Loss+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Head+Loss+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-058",
+      "index": 58,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "3 Reservoir Problem",
+      "isHomeTurf": false,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=3+Reservoir+Problem+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=3+Reservoir+Problem+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-059",
+      "index": 59,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Pipes",
+      "isHomeTurf": false,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Pipes+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Pipes+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-060",
+      "index": 60,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Orifice Flow",
+      "isHomeTurf": false,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Orifice+Flow+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Orifice+Flow+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-061",
+      "index": 61,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Weirs",
+      "isHomeTurf": false,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Weirs+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Weirs+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-062",
+      "index": 62,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Open Channels",
+      "isHomeTurf": false,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Open+Channels+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Open+Channels+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-063",
+      "index": 63,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Critical Flow",
+      "isHomeTurf": false,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Critical+Flow+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Critical+Flow+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-064",
+      "index": 64,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Non-Uniform Flow",
+      "isHomeTurf": false,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Non-Uniform+Flow+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Non-Uniform+Flow+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-065",
+      "index": 65,
+      "sector": "HPGE",
+      "category": "Hydraulics",
+      "name": "Hydrodynamics",
+      "isHomeTurf": false,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Hydrodynamics+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Hydrodynamics+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-066",
+      "index": 66,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Soil Properties",
+      "isHomeTurf": false,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Soil+Properties+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Soil+Properties+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-067",
+      "index": 67,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Atterberg Limits",
+      "isHomeTurf": false,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Atterberg+Limits+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Atterberg+Limits+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-068",
+      "index": 68,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Seepage",
+      "isHomeTurf": false,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Seepage+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Seepage+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-069",
+      "index": 69,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Stress",
+      "isHomeTurf": false,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Stress+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Stress+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-070",
+      "index": 70,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Settlement",
+      "isHomeTurf": false,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Settlement+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Settlement+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-071",
+      "index": 71,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Consolidation",
+      "isHomeTurf": false,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Consolidation+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Consolidation+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-072",
+      "index": 72,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Shear Strength",
+      "isHomeTurf": false,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Shear+Strength+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Shear+Strength+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-073",
+      "index": 73,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Lateral Earth Pressure",
+      "isHomeTurf": false,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Lateral+Earth+Pressure+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Lateral+Earth+Pressure+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-074",
+      "index": 74,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Flow Nets",
+      "isHomeTurf": false,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Flow+Nets+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Flow+Nets+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-075",
+      "index": 75,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Boussinesq Equation",
+      "isHomeTurf": false,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Boussinesq+Equation+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Boussinesq+Equation+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-076",
+      "index": 76,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Ultimate Bearing Capacity",
+      "isHomeTurf": false,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Ultimate+Bearing+Capacity+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Ultimate+Bearing+Capacity+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-077",
+      "index": 77,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Pile Foundation",
+      "isHomeTurf": false,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Pile+Foundation+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Pile+Foundation+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-078",
+      "index": 78,
+      "sector": "HPGE",
+      "category": "Geotechnical Engineering",
+      "name": "Slope Stability",
+      "isHomeTurf": false,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Slope+Stability+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Slope+Stability+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-079",
+      "index": 79,
+      "sector": "PSAD",
+      "category": "Engineering Mechanics",
+      "name": "Statics (2D)",
+      "isHomeTurf": false,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Statics+(2D)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Statics+(2D)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-080",
+      "index": 80,
+      "sector": "PSAD",
+      "category": "Engineering Mechanics",
+      "name": "Cables and Trusses",
+      "isHomeTurf": false,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Cables+and+Trusses+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Cables+and+Trusses+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-081",
+      "index": 81,
+      "sector": "PSAD",
+      "category": "Engineering Mechanics",
+      "name": "Friction",
+      "isHomeTurf": false,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Friction+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Friction+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-082",
+      "index": 82,
+      "sector": "PSAD",
+      "category": "Engineering Mechanics",
+      "name": "Statics (3D)",
+      "isHomeTurf": false,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Statics+(3D)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Statics+(3D)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-083",
+      "index": 83,
+      "sector": "PSAD",
+      "category": "Engineering Mechanics",
+      "name": "Kinematics",
+      "isHomeTurf": false,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Kinematics+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Kinematics+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-084",
+      "index": 84,
+      "sector": "PSAD",
+      "category": "Engineering Mechanics",
+      "name": "Kinetics",
+      "isHomeTurf": false,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Kinetics+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Kinetics+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-085",
+      "index": 85,
+      "sector": "PSAD",
+      "category": "Strength of Materials",
+      "name": "Stress and Strain",
+      "isHomeTurf": false,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Stress+and+Strain+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Stress+and+Strain+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-086",
+      "index": 86,
+      "sector": "PSAD",
+      "category": "Strength of Materials",
+      "name": "Thin-Walled Pressure Vessels (Strength)",
+      "isHomeTurf": false,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Thin-Walled+Pressure+Vessels+(Strength)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Thin-Walled+Pressure+Vessels+(Strength)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-087",
+      "index": 87,
+      "sector": "PSAD",
+      "category": "Strength of Materials",
+      "name": "Torsion (Strength)",
+      "isHomeTurf": false,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Torsion+(Strength)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Torsion+(Strength)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-088",
+      "index": 88,
+      "sector": "PSAD",
+      "category": "Strength of Materials",
+      "name": "Helical Spring",
+      "isHomeTurf": false,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Helical+Spring+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Helical+Spring+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-089",
+      "index": 89,
+      "sector": "PSAD",
+      "category": "Strength of Materials",
+      "name": "Flexural Stress",
+      "isHomeTurf": false,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Flexural+Stress+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Flexural+Stress+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-090",
+      "index": 90,
+      "sector": "PSAD",
+      "category": "Strength of Materials",
+      "name": "Transverse Shear Stress",
+      "isHomeTurf": false,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Transverse+Shear+Stress+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Transverse+Shear+Stress+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-091",
+      "index": 91,
+      "sector": "PSAD",
+      "category": "Strength of Materials",
+      "name": "Composite Beams",
+      "isHomeTurf": false,
+      "assignedWeek": 10,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Composite+Beams+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Composite+Beams+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-092",
+      "index": 92,
+      "sector": "PSAD",
+      "category": "Strength of Materials",
+      "name": "Mohr's Circle",
+      "isHomeTurf": false,
+      "assignedWeek": 10,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Mohr's+Circle+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Mohr's+Circle+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-093",
+      "index": 93,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "Stability",
+      "isHomeTurf": false,
+      "assignedWeek": 10,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Stability+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Stability+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-094",
+      "index": 94,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "Double Integration Method",
+      "isHomeTurf": false,
+      "assignedWeek": 10,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Double+Integration+Method+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Double+Integration+Method+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-095",
+      "index": 95,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "Area Moment Method",
+      "isHomeTurf": false,
+      "assignedWeek": 10,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Area+Moment+Method+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Area+Moment+Method+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-096",
+      "index": 96,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "Conjugate Beam",
+      "isHomeTurf": false,
+      "assignedWeek": 10,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Conjugate+Beam+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Conjugate+Beam+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-097",
+      "index": 97,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "Superposition Method",
+      "isHomeTurf": false,
+      "assignedWeek": 10,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Superposition+Method+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Superposition+Method+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-098",
+      "index": 98,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "Virtual Work: Beams",
+      "isHomeTurf": false,
+      "assignedWeek": 10,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Virtual+Work:+Beams+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Virtual+Work:+Beams+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-099",
+      "index": 99,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "Virtual Work: Trusses",
+      "isHomeTurf": false,
+      "assignedWeek": 10,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Virtual+Work:+Trusses+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Virtual+Work:+Trusses+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-100",
+      "index": 100,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "3 Moment Equation",
+      "isHomeTurf": false,
+      "assignedWeek": 10,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=3+Moment+Equation+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=3+Moment+Equation+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-101",
+      "index": 101,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "Fixed-End Moments",
+      "isHomeTurf": false,
+      "assignedWeek": 11,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Fixed-End+Moments+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Fixed-End+Moments+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-102",
+      "index": 102,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "Influence Line: Beams",
+      "isHomeTurf": false,
+      "assignedWeek": 11,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Influence+Line:+Beams+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Influence+Line:+Beams+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-103",
+      "index": 103,
+      "sector": "PSAD",
+      "category": "Theory of Structures",
+      "name": "Influence Line: Trusses",
+      "isHomeTurf": false,
+      "assignedWeek": 11,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Influence+Line:+Trusses+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Influence+Line:+Trusses+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-104",
+      "index": 104,
+      "sector": "PSAD",
+      "category": "Steel Design",
+      "name": "Shear (Steel)",
+      "isHomeTurf": false,
+      "assignedWeek": 11,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Shear+(Steel)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Shear+(Steel)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-105",
+      "index": 105,
+      "sector": "PSAD",
+      "category": "Steel Design",
+      "name": "Bending",
+      "isHomeTurf": false,
+      "assignedWeek": 11,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Bending+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Bending+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-106",
+      "index": 106,
+      "sector": "PSAD",
+      "category": "Steel Design",
+      "name": "Compression Members",
+      "isHomeTurf": false,
+      "assignedWeek": 11,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Compression+Members+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Compression+Members+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-107",
+      "index": 107,
+      "sector": "PSAD",
+      "category": "Steel Design",
+      "name": "Combined Axial and Bending",
+      "isHomeTurf": false,
+      "assignedWeek": 11,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Combined+Axial+and+Bending+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Combined+Axial+and+Bending+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-108",
+      "index": 108,
+      "sector": "PSAD",
+      "category": "Steel Design",
+      "name": "Purlins",
+      "isHomeTurf": false,
+      "assignedWeek": 11,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Purlins+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Purlins+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-109",
+      "index": 109,
+      "sector": "PSAD",
+      "category": "Steel Design",
+      "name": "Bolts",
+      "isHomeTurf": false,
+      "assignedWeek": 11,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Bolts+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Bolts+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-110",
+      "index": 110,
+      "sector": "PSAD",
+      "category": "Steel Design",
+      "name": "Welds",
+      "isHomeTurf": false,
+      "assignedWeek": 11,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Welds+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Welds+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-111",
+      "index": 111,
+      "sector": "PSAD",
+      "category": "Steel Design",
+      "name": "Base Plate",
+      "isHomeTurf": false,
+      "assignedWeek": 12,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Base+Plate+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Base+Plate+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-112",
+      "index": 112,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Singly-Reinforced",
+      "isHomeTurf": false,
+      "assignedWeek": 12,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Singly-Reinforced+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Singly-Reinforced+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-113",
+      "index": 113,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Doubly-Reinforced",
+      "isHomeTurf": false,
+      "assignedWeek": 12,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Doubly-Reinforced+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Doubly-Reinforced+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-114",
+      "index": 114,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "T-Beams",
+      "isHomeTurf": false,
+      "assignedWeek": 12,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=T-Beams+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=T-Beams+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-115",
+      "index": 115,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Slabs",
+      "isHomeTurf": false,
+      "assignedWeek": 12,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Slabs+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Slabs+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-116",
+      "index": 116,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Columns",
+      "isHomeTurf": false,
+      "assignedWeek": 12,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Columns+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Columns+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-117",
+      "index": 117,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Columns with Bending",
+      "isHomeTurf": false,
+      "assignedWeek": 12,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Columns+with+Bending+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Columns+with+Bending+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-118",
+      "index": 118,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Shear (RC)",
+      "isHomeTurf": false,
+      "assignedWeek": 12,
+      "assignedDayOfWeek": 4,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Shear+(RC)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Shear+(RC)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-119",
+      "index": 119,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Footings",
+      "isHomeTurf": false,
+      "assignedWeek": 12,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Footings+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Footings+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-120",
+      "index": 120,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Footings with Moments",
+      "isHomeTurf": false,
+      "assignedWeek": 12,
+      "assignedDayOfWeek": 5,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Footings+with+Moments+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Footings+with+Moments+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-121",
+      "index": 121,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Pile Footings",
+      "isHomeTurf": false,
+      "assignedWeek": 13,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Pile+Footings+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Pile+Footings+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-122",
+      "index": 122,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Development Length",
+      "isHomeTurf": false,
+      "assignedWeek": 13,
+      "assignedDayOfWeek": 1,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Development+Length+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Development+Length+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-123",
+      "index": 123,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Torsion (RC)",
+      "isHomeTurf": false,
+      "assignedWeek": 13,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Torsion+(RC)+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Torsion+(RC)+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-124",
+      "index": 124,
+      "sector": "PSAD",
+      "category": "Reinforced Concrete Design",
+      "name": "Prestressed Concrete",
+      "isHomeTurf": false,
+      "assignedWeek": 13,
+      "assignedDayOfWeek": 2,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Prestressed+Concrete+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Prestressed+Concrete+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-125",
+      "index": 125,
+      "sector": "PSAD",
+      "category": "Miscellaneous",
+      "name": "Seismic Design",
+      "isHomeTurf": false,
+      "assignedWeek": 13,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=Seismic+Design+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=Seismic+Design+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    },
+    {
+      "id": "T-126",
+      "index": 126,
+      "sector": "PSAD",
+      "category": "Miscellaneous",
+      "name": "WSD",
+      "isHomeTurf": false,
+      "assignedWeek": 13,
+      "assignedDayOfWeek": 3,
+      "status": "locked",
+      "lastReviewed": null,
+      "decayDaysThreshold": 7,
+      "xpEarned": 0,
+      "rescueLinks": {
+        "organicChemistryTutor": "https://www.youtube.com/results?search_query=WSD+Organic+Chemistry+Tutor",
+        "khanAcademy": "https://www.youtube.com/results?search_query=WSD+Khan+Academy",
+        "notebookLM": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+      }
+    }
+  ],
+  "spiralSchedule": [
+    {
+      "week": 1,
+      "dateRange": "Oct 12 - Oct 18",
+      "title": "Establishing the Base (Algebra & Trig)",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-001",
+            "T-002"
+          ],
+          "primaryLabel": "College Math & Series",
+          "spiralTopicIds": [],
+          "spiralLabel": "None (Build Base)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-003",
+            "T-004"
+          ],
+          "primaryLabel": "Word Problems & Permutation/Combination",
+          "spiralTopicIds": [],
+          "spiralLabel": "None (Build Base)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-005",
+            "T-006"
+          ],
+          "primaryLabel": "Probability and Statistics & Probability Distribution",
+          "spiralTopicIds": [],
+          "spiralLabel": "None (Build Base)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-007",
+            "T-008"
+          ],
+          "primaryLabel": "Trigonometric Functions & Inscribed/Circumscribed",
+          "spiralTopicIds": [],
+          "spiralLabel": "None (Build Base)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-009",
+            "T-010"
+          ],
+          "primaryLabel": "Spherical Trigonometry & Geometry (2D)",
+          "spiralTopicIds": [],
+          "spiralLabel": "None (Build Base)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "100% Week 1",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "dateRange": "Oct 19 - Oct 25",
+      "title": "The First Spiral (Geometry & Diff Calc)",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-011",
+            "T-012"
+          ],
+          "primaryLabel": "Geometry (3D) & Circles",
+          "spiralTopicIds": [
+            "T-001",
+            "T-002"
+          ],
+          "spiralLabel": "College Math & Series",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-013",
+            "T-014"
+          ],
+          "primaryLabel": "Conic Sections & Polar Coordinates",
+          "spiralTopicIds": [
+            "T-003",
+            "T-004"
+          ],
+          "spiralLabel": "Word Problems & Permutation/Combination",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-015",
+            "T-016"
+          ],
+          "primaryLabel": "Derivative & Maxima/Minima",
+          "spiralTopicIds": [
+            "T-005",
+            "T-006"
+          ],
+          "spiralLabel": "Probability and Statistics & Probability Distribution",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-017",
+            "T-018"
+          ],
+          "primaryLabel": "Related Rates & Optimization",
+          "spiralTopicIds": [
+            "T-007",
+            "T-008"
+          ],
+          "spiralLabel": "Trigonometric Functions & Inscribed/Circumscribed",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-019",
+            "T-020"
+          ],
+          "primaryLabel": "Antiderivative & Arc Length",
+          "spiralTopicIds": [
+            "T-009",
+            "T-010"
+          ],
+          "spiralLabel": "Spherical Trigonometry & Geometry (2D)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W2 / 20% W1",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "dateRange": "Oct 26 - Nov 1",
+      "title": "Economics & Integral Calculus",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-021",
+            "T-022"
+          ],
+          "primaryLabel": "Solids of Revolution & Centroids/Moment of Inertia",
+          "spiralTopicIds": [
+            "T-011",
+            "T-012"
+          ],
+          "spiralLabel": "Geometry (3D) & Circles",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-023",
+            "T-024"
+          ],
+          "primaryLabel": "Interest and Annuity & Depreciation",
+          "spiralTopicIds": [
+            "T-013",
+            "T-014"
+          ],
+          "spiralLabel": "Conic Sections & Polar Coordinates",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-025",
+            "T-026"
+          ],
+          "primaryLabel": "Inflation & Return of Investment (ROI)",
+          "spiralTopicIds": [
+            "T-015",
+            "T-016"
+          ],
+          "spiralLabel": "Derivative & Maxima/Minima",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-027",
+            "T-028"
+          ],
+          "primaryLabel": "Stocks/Bonds & Measurement",
+          "spiralTopicIds": [
+            "T-017",
+            "T-018"
+          ],
+          "spiralLabel": "Related Rates & Optimization",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-029",
+            "T-030"
+          ],
+          "primaryLabel": "Probable Value & Tape Correction",
+          "spiralTopicIds": [
+            "T-019",
+            "T-020"
+          ],
+          "spiralLabel": "Antiderivative & Arc Length",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W3 / 20% W2",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "dateRange": "Nov 2 - Nov 8",
+      "title": "Surveying & Transportation",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-031",
+            "T-032"
+          ],
+          "primaryLabel": "Leveling & Curvature and Refraction",
+          "spiralTopicIds": [
+            "T-021",
+            "T-022"
+          ],
+          "spiralLabel": "Solids of Revolution & Centroids/Moment of Inertia",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-033",
+            "T-034"
+          ],
+          "primaryLabel": "Stadia & DMD/DPD",
+          "spiralTopicIds": [
+            "T-023",
+            "T-024"
+          ],
+          "spiralLabel": "Interest and Annuity & Depreciation",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-035",
+            "T-036"
+          ],
+          "primaryLabel": "Traverse & Compass/Transit Rule",
+          "spiralTopicIds": [
+            "T-025",
+            "T-026"
+          ],
+          "spiralLabel": "Inflation & Return of Investment (ROI)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-037",
+            "T-038"
+          ],
+          "primaryLabel": "Horizontal Curve & Vertical Curve",
+          "spiralTopicIds": [
+            "T-027",
+            "T-028"
+          ],
+          "spiralLabel": "Stocks/Bonds & Measurement",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-039",
+            "T-040"
+          ],
+          "primaryLabel": "Earthworks & Accident Analysis",
+          "spiralTopicIds": [
+            "T-029",
+            "T-030"
+          ],
+          "spiralLabel": "Probable Value & Tape Correction",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W4 / 20% W3",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "dateRange": "Nov 9 - Nov 15",
+      "title": "Transpo, Construction & Hydraulics 1",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-041",
+            "T-042"
+          ],
+          "primaryLabel": "Pavement Design & Sight Distance",
+          "spiralTopicIds": [
+            "T-031",
+            "T-032"
+          ],
+          "spiralLabel": "Leveling & Curvature and Refraction",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-043",
+            "T-044"
+          ],
+          "primaryLabel": "Railroad Engineering & Ports and Harbor",
+          "spiralTopicIds": [
+            "T-033",
+            "T-034"
+          ],
+          "spiralLabel": "Stadia & DMD/DPD",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-045",
+            "T-046"
+          ],
+          "primaryLabel": "Construction Methods & COSH",
+          "spiralTopicIds": [
+            "T-035",
+            "T-036"
+          ],
+          "spiralLabel": "Traverse & Compass/Transit Rule",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-047",
+            "T-048"
+          ],
+          "primaryLabel": "DPWH Manual & Water Properties",
+          "spiralTopicIds": [
+            "T-037",
+            "T-038"
+          ],
+          "spiralLabel": "Horizontal Curve & Vertical Curve",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-049",
+            "T-050"
+          ],
+          "primaryLabel": "Hydrostatic Pressure & Buoyancy",
+          "spiralTopicIds": [
+            "T-039",
+            "T-040"
+          ],
+          "spiralLabel": "Earthworks & Accident Analysis",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W5 / 20% W4",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "dateRange": "Nov 16 - Nov 22",
+      "title": "Hydraulics 2",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-051",
+            "T-052"
+          ],
+          "primaryLabel": "Stability of Floating Bodies & Dams",
+          "spiralTopicIds": [
+            "T-041",
+            "T-042"
+          ],
+          "spiralLabel": "Pavement Design & Sight Distance",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-053",
+            "T-054"
+          ],
+          "primaryLabel": "Thin-Walled Pressure Vessels (Hydraulics) & Moving Vessel",
+          "spiralTopicIds": [
+            "T-043",
+            "T-044"
+          ],
+          "spiralLabel": "Railroad Engineering & Ports and Harbor",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-055",
+            "T-056"
+          ],
+          "primaryLabel": "Rotating Vessel & Energy Equation",
+          "spiralTopicIds": [
+            "T-045",
+            "T-046"
+          ],
+          "spiralLabel": "Construction Methods & COSH",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-057",
+            "T-058"
+          ],
+          "primaryLabel": "Head Loss & 3 Reservoir Problem",
+          "spiralTopicIds": [
+            "T-047",
+            "T-048"
+          ],
+          "spiralLabel": "DPWH Manual & Water Properties",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-059",
+            "T-060"
+          ],
+          "primaryLabel": "Pipes & Orifice Flow",
+          "spiralTopicIds": [
+            "T-049",
+            "T-050"
+          ],
+          "spiralLabel": "Hydrostatic Pressure & Buoyancy",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W6 / 20% W5",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "dateRange": "Nov 23 - Nov 29",
+      "title": "Hydraulics 3 & Geotechnical 1",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-061",
+            "T-062"
+          ],
+          "primaryLabel": "Weirs & Open Channels",
+          "spiralTopicIds": [
+            "T-051",
+            "T-052"
+          ],
+          "spiralLabel": "Stability of Floating Bodies & Dams",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-063",
+            "T-064"
+          ],
+          "primaryLabel": "Critical Flow & Non-Uniform Flow",
+          "spiralTopicIds": [
+            "T-053",
+            "T-054"
+          ],
+          "spiralLabel": "Thin-Walled Pressure Vessels (Hydraulics) & Moving Vessel",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-065",
+            "T-066"
+          ],
+          "primaryLabel": "Hydrodynamics & Soil Properties",
+          "spiralTopicIds": [
+            "T-055",
+            "T-056"
+          ],
+          "spiralLabel": "Rotating Vessel & Energy Equation",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-067",
+            "T-068"
+          ],
+          "primaryLabel": "Atterberg Limits & Seepage",
+          "spiralTopicIds": [
+            "T-057",
+            "T-058"
+          ],
+          "spiralLabel": "Head Loss & 3 Reservoir Problem",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-069",
+            "T-070"
+          ],
+          "primaryLabel": "Stress & Settlement",
+          "spiralTopicIds": [
+            "T-059",
+            "T-060"
+          ],
+          "spiralLabel": "Pipes & Orifice Flow",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W7 / 20% W6",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "dateRange": "Nov 30 - Dec 6",
+      "title": "Geotechnical 2 & Eng Mechanics",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-071",
+            "T-072"
+          ],
+          "primaryLabel": "Consolidation & Shear Strength",
+          "spiralTopicIds": [
+            "T-061",
+            "T-062"
+          ],
+          "spiralLabel": "Weirs & Open Channels",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-073",
+            "T-074"
+          ],
+          "primaryLabel": "Lateral Earth Pressure & Flow Nets",
+          "spiralTopicIds": [
+            "T-063",
+            "T-064"
+          ],
+          "spiralLabel": "Critical Flow & Non-Uniform Flow",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-075",
+            "T-076"
+          ],
+          "primaryLabel": "Boussinesq Equation & Ultimate Bearing Capacity",
+          "spiralTopicIds": [
+            "T-065",
+            "T-066"
+          ],
+          "spiralLabel": "Hydrodynamics & Soil Properties",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-077",
+            "T-078"
+          ],
+          "primaryLabel": "Pile Foundation & Slope Stability",
+          "spiralTopicIds": [
+            "T-067",
+            "T-068"
+          ],
+          "spiralLabel": "Atterberg Limits & Seepage",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-079",
+            "T-080"
+          ],
+          "primaryLabel": "Statics (2D) & Cables and Trusses",
+          "spiralTopicIds": [
+            "T-069",
+            "T-070"
+          ],
+          "spiralLabel": "Stress & Settlement",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W8 / 20% W7",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "dateRange": "Dec 7 - Dec 13",
+      "title": "Eng Mechanics & Strength of Materials",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-081",
+            "T-082"
+          ],
+          "primaryLabel": "Friction & Statics (3D)",
+          "spiralTopicIds": [
+            "T-071",
+            "T-072"
+          ],
+          "spiralLabel": "Consolidation & Shear Strength",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-083",
+            "T-084"
+          ],
+          "primaryLabel": "Kinematics & Kinetics",
+          "spiralTopicIds": [
+            "T-073",
+            "T-074"
+          ],
+          "spiralLabel": "Lateral Earth Pressure & Flow Nets",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-085",
+            "T-086"
+          ],
+          "primaryLabel": "Stress and Strain & Thin-Walled Pressure Vessels (Strength)",
+          "spiralTopicIds": [
+            "T-075",
+            "T-076"
+          ],
+          "spiralLabel": "Boussinesq Equation & Ultimate Bearing Capacity",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-087",
+            "T-088"
+          ],
+          "primaryLabel": "Torsion (Strength) & Helical Spring",
+          "spiralTopicIds": [
+            "T-077",
+            "T-078"
+          ],
+          "spiralLabel": "Pile Foundation & Slope Stability",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-089",
+            "T-090"
+          ],
+          "primaryLabel": "Flexural Stress & Transverse Shear Stress",
+          "spiralTopicIds": [
+            "T-079",
+            "T-080"
+          ],
+          "spiralLabel": "Statics (2D) & Cables and Trusses",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W9 / 20% W8",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "dateRange": "Dec 14 - Dec 20",
+      "title": "Strength 2 & Theory of Structures 1",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-091",
+            "T-092"
+          ],
+          "primaryLabel": "Composite Beams & Mohr's Circle",
+          "spiralTopicIds": [
+            "T-081",
+            "T-082"
+          ],
+          "spiralLabel": "Friction & Statics (3D)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-093",
+            "T-094"
+          ],
+          "primaryLabel": "Stability & Double Integration Method",
+          "spiralTopicIds": [
+            "T-083",
+            "T-084"
+          ],
+          "spiralLabel": "Kinematics & Kinetics",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-095",
+            "T-096"
+          ],
+          "primaryLabel": "Area Moment Method & Conjugate Beam",
+          "spiralTopicIds": [
+            "T-085",
+            "T-086"
+          ],
+          "spiralLabel": "Stress and Strain & Thin-Walled Pressure Vessels (Strength)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-097",
+            "T-098"
+          ],
+          "primaryLabel": "Superposition Method & Virtual Work: Beams",
+          "spiralTopicIds": [
+            "T-087",
+            "T-088"
+          ],
+          "spiralLabel": "Torsion (Strength) & Helical Spring",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-099",
+            "T-100"
+          ],
+          "primaryLabel": "Virtual Work: Trusses & 3 Moment Equation",
+          "spiralTopicIds": [
+            "T-089",
+            "T-090"
+          ],
+          "spiralLabel": "Flexural Stress & Transverse Shear Stress",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W10 / 20% W9",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "dateRange": "Jan 4 - Jan 10",
+      "title": "Theory 2 & Steel Design (Post-Holiday Reset)",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-101",
+            "T-102"
+          ],
+          "primaryLabel": "Fixed-End Moments & Influence Line: Beams",
+          "spiralTopicIds": [
+            "T-091",
+            "T-092"
+          ],
+          "spiralLabel": "Composite Beams & Mohr's Circle",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-103",
+            "T-104"
+          ],
+          "primaryLabel": "Influence Line: Trusses & Shear (Steel)",
+          "spiralTopicIds": [
+            "T-093",
+            "T-094"
+          ],
+          "spiralLabel": "Stability & Double Integration Method",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-105",
+            "T-106"
+          ],
+          "primaryLabel": "Bending & Compression Members",
+          "spiralTopicIds": [
+            "T-095",
+            "T-096"
+          ],
+          "spiralLabel": "Area Moment Method & Conjugate Beam",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-107",
+            "T-108"
+          ],
+          "primaryLabel": "Combined Axial and Bending & Purlins",
+          "spiralTopicIds": [
+            "T-097",
+            "T-098"
+          ],
+          "spiralLabel": "Superposition Method & Virtual Work: Beams",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-109",
+            "T-110"
+          ],
+          "primaryLabel": "Bolts & Welds",
+          "spiralTopicIds": [
+            "T-099",
+            "T-100"
+          ],
+          "spiralLabel": "Virtual Work: Trusses & 3 Moment Equation",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W11 / 20% W10",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "dateRange": "Jan 11 - Jan 17",
+      "title": "Steel 2 & Reinforced Concrete 1",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-111",
+            "T-112"
+          ],
+          "primaryLabel": "Base Plate & Singly-Reinforced",
+          "spiralTopicIds": [
+            "T-101",
+            "T-102"
+          ],
+          "spiralLabel": "Fixed-End Moments & Influence Line: Beams",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-113",
+            "T-114"
+          ],
+          "primaryLabel": "Doubly-Reinforced & T-Beams",
+          "spiralTopicIds": [
+            "T-103",
+            "T-104"
+          ],
+          "spiralLabel": "Influence Line: Trusses & Shear (Steel)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-115",
+            "T-116"
+          ],
+          "primaryLabel": "Slabs & Columns",
+          "spiralTopicIds": [
+            "T-105",
+            "T-106"
+          ],
+          "spiralLabel": "Bending & Compression Members",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [
+            "T-117",
+            "T-118"
+          ],
+          "primaryLabel": "Columns with Bending & Shear (RC)",
+          "spiralTopicIds": [
+            "T-107",
+            "T-108"
+          ],
+          "spiralLabel": "Combined Axial and Bending & Purlins",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [
+            "T-119",
+            "T-120"
+          ],
+          "primaryLabel": "Footings & Footings with Moments",
+          "spiralTopicIds": [
+            "T-109",
+            "T-110"
+          ],
+          "spiralLabel": "Bolts & Welds",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W12 / 20% W11",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "dateRange": "Jan 18 - Jan 24",
+      "title": "Reinforced Concrete 2 & Misc",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryTopicIds": [
+            "T-121",
+            "T-122"
+          ],
+          "primaryLabel": "Pile Footings & Development Length",
+          "spiralTopicIds": [
+            "T-111",
+            "T-112"
+          ],
+          "spiralLabel": "Base Plate & Singly-Reinforced",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryTopicIds": [
+            "T-123",
+            "T-124"
+          ],
+          "primaryLabel": "Torsion (RC) & Prestressed Concrete",
+          "spiralTopicIds": [
+            "T-113",
+            "T-114"
+          ],
+          "spiralLabel": "Doubly-Reinforced & T-Beams",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryTopicIds": [
+            "T-125",
+            "T-126"
+          ],
+          "primaryLabel": "Seismic Design & WSD",
+          "spiralTopicIds": [
+            "T-115",
+            "T-116"
+          ],
+          "spiralLabel": "Slabs & Columns",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Thursday",
+          "primaryTopicIds": [],
+          "primaryLabel": "Buffer Day / Weakness Review",
+          "spiralTopicIds": [
+            "T-117",
+            "T-118"
+          ],
+          "spiralLabel": "Columns with Bending & Shear (RC)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Friday",
+          "primaryTopicIds": [],
+          "primaryLabel": "Buffer Day / Weakness Review",
+          "spiralTopicIds": [
+            "T-119",
+            "T-120"
+          ],
+          "spiralLabel": "Footings & Footings with Moments",
+          "primaryCompleted": false,
+          "spiralCompleted": false
+        },
+        {
+          "day": "Saturday",
+          "type": "Weekly Eval",
+          "evalMix": "80% W13 / 20% W12",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "type": "Rest",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "dateRange": "Jan 25 - Jan 31",
+      "title": "Final Integration & Board Prep Blitz",
+      "days": [
+        {
+          "day": "Monday",
+          "primaryLabel": "Full MSTE Block Integration Exam (Self-Spiraling)",
+          "spiralLabel": "Full Curriculum",
+          "completed": false
+        },
+        {
+          "day": "Tuesday",
+          "primaryLabel": "Full HPGE Block Integration Exam (Self-Spiraling)",
+          "spiralLabel": "Full Curriculum",
+          "completed": false
+        },
+        {
+          "day": "Wednesday",
+          "primaryLabel": "Full PSAD Block Integration Exam (Self-Spiraling)",
+          "spiralLabel": "Full Curriculum",
+          "completed": false
+        },
+        {
+          "day": "Thursday",
+          "primaryLabel": "Final Readiness Eval (Weakness Autopsies)",
+          "spiralLabel": "Full Curriculum",
+          "completed": false
+        },
+        {
+          "day": "Friday",
+          "primaryLabel": "Final Readiness Eval (Weakness Autopsies)",
+          "spiralLabel": "Full Curriculum",
+          "completed": false
+        },
+        {
+          "day": "Saturday",
+          "primaryLabel": "Rest & Logistics (Calculators, NOA, Pencils)",
+          "spiralLabel": "Full Curriculum",
+          "completed": false
+        },
+        {
+          "day": "Sunday",
+          "primaryLabel": "Rest",
+          "spiralLabel": "Full Curriculum",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "samplePuzzles": [
+    {
+      "puzzleId": "PUZ-001",
+      "topicId": "T-002",
+      "topicName": "Series (Arithmetic Progression)",
+      "difficulty": "Hard",
+      "prompt": "A contractor agrees to a delay penalty: $100 for Day 1, $150 for Day 2, $200 for Day 3, and so on. If the total penalty paid is $4,500, how many days was the project delayed?",
+      "stages": [
+        {
+          "stage": 1,
+          "instruction": "Identify the governing Arithmetic Progression sum formula when the last term is unknown.",
+          "options": [
+            "Sn = (n/2) * [2*a1 + (n - 1)*d]",
+            "Sn = a1 * (1 - r^n) / (1 - r)",
+            "an = a1 + (n - 1)*d"
+          ],
+          "correctOptionIndex": 0,
+          "formulaHint": "Use the AP sum equation using first term a1 = 100 and common difference d = 50."
+        },
+        {
+          "stage": 2,
+          "instruction": "What is the common difference (d) in dollars per day?",
+          "expectedValue": 50,
+          "tolerance": 0.01,
+          "unit": "USD/day"
+        },
+        {
+          "stage": 3,
+          "instruction": "Solve the quadratic equation 4500 = (n/2)[200 + 50(n - 1)] for the total delay (n).",
+          "expectedValue": 12,
+          "tolerance": 0.01,
+          "unit": "days",
+          "solutionNote": "4500 = (n/2)(150 + 50n) -> 9000 = 150n + 50n^2 -> n^2 + 3n - 180 = 0 -> (n + 15)(n - 12) = 0 -> n = 12 days."
+        }
+      ]
+    },
+    {
+      "puzzleId": "PUZ-002",
+      "topicId": "T-002",
+      "topicName": "Series (Infinite Geometric Progression)",
+      "difficulty": "Hard",
+      "prompt": "A rubber ball is dropped from a height of 12 meters. Each time it strikes the ground, it bounces back to 3/4 of the height from which it fell. Find the total vertical distance traveled before coming to rest.",
+      "stages": [
+        {
+          "stage": 1,
+          "instruction": "Select the correct physical model for total vertical bounce distance.",
+          "options": [
+            "D = h0 + 2 * [h0*r / (1 - r)]",
+            "D = h0 / (1 - r)",
+            "D = 2 * h0 / (1 - r)"
+          ],
+          "correctOptionIndex": 0,
+          "formulaHint": "The initial drop happens once (12m), while every subsequent rebound travels both up and down (2x)."
+        },
+        {
+          "stage": 2,
+          "instruction": "Calculate the height of the very first rebound (a1 = h0 * r) in meters.",
+          "expectedValue": 9.0,
+          "tolerance": 0.05,
+          "unit": "m"
+        },
+        {
+          "stage": 3,
+          "instruction": "Compute the total vertical distance traveled (D) in meters.",
+          "expectedValue": 84.0,
+          "tolerance": 0.1,
+          "unit": "m",
+          "solutionNote": "D = 12 + 2 * [9 / (1 - 0.75)] = 12 + 2 * (36) = 84 m."
+        }
+      ]
+    },
+    {
+      "puzzleId": "PUZ-003",
+      "topicId": "T-032",
+      "topicName": "Curvature and Refraction",
+      "difficulty": "Medium",
+      "prompt": "A surveyor sights a target across a body of water at a distance of 8.5 km. Calculate the combined correction for Earth's curvature and atmospheric refraction (h_cr) in meters.",
+      "stages": [
+        {
+          "stage": 1,
+          "instruction": "Select the standard combined curvature and refraction formula (where K is in kilometers).",
+          "options": [
+            "h_cr = 0.0675 * K^2",
+            "h_c = 0.0785 * K^2",
+            "h_r = 0.0110 * K^2"
+          ],
+          "correctOptionIndex": 0,
+          "formulaHint": "Combined correction subtracts refraction from curvature: (0.0785 - 0.0110) * K^2 = 0.0675 * K^2."
+        },
+        {
+          "stage": 2,
+          "instruction": "Compute the square of the distance in km (K^2).",
+          "expectedValue": 72.25,
+          "tolerance": 0.05,
+          "unit": "km^2"
+        },
+        {
+          "stage": 3,
+          "instruction": "Compute the combined curvature and refraction correction (h_cr) in meters.",
+          "expectedValue": 4.877,
+          "tolerance": 0.02,
+          "unit": "m",
+          "solutionNote": "h_cr = 0.0675 * (8.5)^2 = 4.8769 m."
+        }
+      ]
+    }
+  ]
+}
