@@ -1,5 +1,5 @@
 /* CELE Ambush Command Center — Offline-First iOS/iPadOS Service Worker */
-const CACHE_NAME = "cele-ambush-pwa-v3";
+const CACHE_NAME = "cele-ambush-pwa-v4";
 const PRECACHE_ASSETS = [
   "./",
   "./index.html",

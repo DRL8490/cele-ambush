@@ -1,14 +1,17 @@
-/* CELE Ambush Command Center — Native cele_ambush_curriculum.json Engine (126 Topics + 14-Week Spiral Schedule) */
+/* CELE Ambush Command Center — Native cele_ambush_curriculum.json Engine (126 Topics + 10-Week Compressed Spiral Schedule) */
 (function () {
   "use strict";
 
   const STORAGE_KEY = "cele_ambush_command_v2";
+  const SCHEDULE_VERSION = "nov9-10wk-v1";
   const DAY_MS = 86400000;
 
   const ctx = window.CELE_CONTEXT || {
     appConfig: {
       appName: "CELE Ambush Command Center",
-      version: "1.0.0",
+      version: "1.1.0",
+      scheduleStart: "2026-11-09",
+      totalWeeks: 10,
       primaryTimerMinutes: 15,
       spiralTimerMinutes: 15,
       startingIntegrityXP: 100,
@@ -45,24 +48,33 @@
 
   function detectScheduleSlot() {
     const now = new Date();
-    const ymd = now.toISOString().slice(0, 10);
+    const yyyy = now.getFullYear();
+    const mm = String(now.getMonth() + 1).padStart(2, "0");
+    const dd = String(now.getDate()).padStart(2, "0");
+    const ymd = `${yyyy}-${mm}-${dd}`;
     const hs = ctx.appConfig.holidayShutdown || {};
-    const inHoliday = hs.start && hs.end && ymd >= hs.start && ymd <= hs.end;
+    const inHoliday = Boolean(hs.start && hs.end && ymd >= hs.start && ymd <= hs.end);
 
-    const w1Start = Date.UTC(2026, 9, 12);  // Oct 12, 2026 (Mon)
-    const w11Start = Date.UTC(2027, 0, 4);  // Jan 4, 2027 (Mon)
-    const todayUTC = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+    const w1Start = Date.UTC(2026, 10, 9);  // Nov 9, 2026 (Mon) — Weeks 1..6 (42 days through Dec 20)
+    const w7Start = Date.UTC(2027, 0, 4);   // Jan 4, 2027 (Mon) — Weeks 7..10 (28 days through Jan 31)
+    const todayLocalUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
 
     let week = 1;
     let dayIdx = 0;
-    if (todayUTC >= w1Start && todayUTC < w1Start + 70 * DAY_MS) {
-      const diff = Math.floor((todayUTC - w1Start) / DAY_MS);
+    if (inHoliday) {
+      week = 6;
+      dayIdx = 6;
+    } else if (todayLocalUTC >= w1Start && todayLocalUTC < w1Start + 42 * DAY_MS) {
+      const diff = Math.floor((todayLocalUTC - w1Start) / DAY_MS);
       week = Math.floor(diff / 7) + 1;
       dayIdx = diff % 7;
-    } else if (todayUTC >= w11Start && todayUTC < w11Start + 28 * DAY_MS) {
-      const diff = Math.floor((todayUTC - w11Start) / DAY_MS);
-      week = 11 + Math.floor(diff / 7);
+    } else if (todayLocalUTC >= w7Start && todayLocalUTC < w7Start + 28 * DAY_MS) {
+      const diff = Math.floor((todayLocalUTC - w7Start) / DAY_MS);
+      week = 7 + Math.floor(diff / 7);
       dayIdx = diff % 7;
+    } else if (todayLocalUTC >= w7Start + 28 * DAY_MS) {
+      week = 10;
+      dayIdx = 0;
     }
     return { week, dayIdx, inHoliday };
   }
@@ -75,9 +87,10 @@
     const sInit = (schedDay && schedDay.spiralTopicIds && schedDay.spiralTopicIds[0]) || null;
 
     return {
-      version: "2.0",
+      version: "2.1",
+      scheduleVersion: SCHEDULE_VERSION,
       appConfig: JSON.parse(JSON.stringify(ctx.appConfig)),
-      sourceLabel: "cele_ambush_curriculum.json · 126 Topics · MSTE (47) · HPGE (31) · PSAD (48)",
+      sourceLabel: "cele_ambush_curriculum.json · 126 Topics · 10-Week Plan (Nov 9 Start)",
       careerXp: 0,
       topicOverrides: {},
       extraTopics: [],
@@ -125,7 +138,19 @@
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return defaultState();
       const parsed = JSON.parse(raw);
-      return Object.assign(defaultState(), parsed);
+      const base = defaultState();
+      if (parsed.scheduleVersion !== SCHEDULE_VERSION) {
+        // Migrate existing study progress & custom puzzles onto the new Nov 9 10-week compressed schedule
+        const migrated = Object.assign({}, base, {
+          careerXp: parsed.careerXp || 0,
+          nodeProgress: parsed.nodeProgress || {},
+          customPuzzles: parsed.customPuzzles || {},
+          extraTopics: parsed.extraTopics || []
+        });
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(migrated)); } catch (_) {}
+        return migrated;
+      }
+      return Object.assign(base, parsed);
     } catch (_) {
       return defaultState();
     }
@@ -842,7 +867,8 @@
     saveState();
     initPuzzleAttempt(true);
     renderAll();
-    showToast(`Synced ${updatedTopics} topics, 14-week schedule & ${importedPuzzles + (ctx.samplePuzzles || []).length} sample puzzles!`);
+    const schedWeeks = (state.customSchedule || ctx.spiralSchedule || []).length || 10;
+    showToast(`Synced ${updatedTopics} topics, ${schedWeeks}-week schedule & ${importedPuzzles + (ctx.samplePuzzles || []).length} sample puzzles!`);
   }
 
   function renderWarPlan(topics, statusMap) {
@@ -909,7 +935,7 @@
     const hs = cfg().holidayShutdown;
     if (state.showHolidayBanner && hs) {
       holBanner.style.display = "flex";
-      holBanner.innerHTML = `<span><strong>Mandatory Holiday Shutdown (${escapeHtml(hs.start)} to ${escapeHtml(hs.end)}):</strong> ${escapeHtml(hs.rule)}</span><span style="font-family:var(--font-mono);font-size:11.5px;">Between Week 10 &amp; Week 11</span>`;
+      holBanner.innerHTML = `<span><strong>Mandatory Holiday Shutdown (${escapeHtml(hs.start)} to ${escapeHtml(hs.end)}):</strong> ${escapeHtml(hs.rule)}</span><span style="font-family:var(--font-mono);font-size:11.5px;">Between Week 6 &amp; Week 7</span>`;
     } else {
       holBanner.style.display = "none";
     }
@@ -1019,7 +1045,7 @@
       document.getElementById("spiral-target-card").classList.toggle("is-engaged", state.engagedMode === "spiral" && state.selectedNodeId === sTopic.id);
     } else {
       spiralTitleEl.textContent = "Week 1 Base-Building (No Spiral Pair Yet)";
-      spiralMetaEl.textContent = "Switch to Week 2–14 above or click 'Simulate Spiral Window' to preview 7–14d retention.";
+      spiralMetaEl.textContent = "Switch to Week 2–10 above or click 'Simulate Spiral Window' to preview 7–14d retention.";
       engageSpiralBtn.disabled = true;
       document.getElementById("spiral-target-card").classList.remove("is-engaged");
     }

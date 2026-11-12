@@ -1,7 +1,7 @@
 {
   "appConfig": {
     "appName": "CELE Ambush Command Center",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "primaryTimerMinutes": 15,
     "spiralTimerMinutes": 15,
     "startingIntegrityXP": 100,
@@ -13,7 +13,9 @@
       "end": "2027-01-03",
       "rule": "Zero studying. Mandatory cognitive recovery."
     },
-    "notebookLMUrl": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1"
+    "notebookLMUrl": "https://gemini.google.com/notebook/1c6b7e1c-9354-42d6-b174-c5743d55b0e1",
+    "scheduleStart": "2026-11-09",
+    "totalWeeks": 10
   },
   "summaryCounts": {
     "totalTopics": 126,
@@ -68,7 +70,7 @@
       "name": "Word Problems",
       "isHomeTurf": false,
       "assignedWeek": 1,
-      "assignedDayOfWeek": 2,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -106,7 +108,7 @@
       "name": "Probability and Statistics",
       "isHomeTurf": false,
       "assignedWeek": 1,
-      "assignedDayOfWeek": 3,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -125,7 +127,7 @@
       "name": "Probability Distribution",
       "isHomeTurf": false,
       "assignedWeek": 1,
-      "assignedDayOfWeek": 3,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -144,7 +146,7 @@
       "name": "Trigonometric Functions",
       "isHomeTurf": false,
       "assignedWeek": 1,
-      "assignedDayOfWeek": 4,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -163,7 +165,7 @@
       "name": "Inscribed/Circumscribed",
       "isHomeTurf": false,
       "assignedWeek": 1,
-      "assignedDayOfWeek": 4,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -182,7 +184,7 @@
       "name": "Spherical Trigonometry",
       "isHomeTurf": false,
       "assignedWeek": 1,
-      "assignedDayOfWeek": 5,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -201,7 +203,7 @@
       "name": "Geometry (2D)",
       "isHomeTurf": false,
       "assignedWeek": 1,
-      "assignedDayOfWeek": 5,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -219,8 +221,8 @@
       "category": "Geometry",
       "name": "Geometry (3D)",
       "isHomeTurf": false,
-      "assignedWeek": 2,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -238,8 +240,8 @@
       "category": "Geometry",
       "name": "Circles",
       "isHomeTurf": false,
-      "assignedWeek": 2,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -257,8 +259,8 @@
       "category": "Geometry",
       "name": "Conic Sections",
       "isHomeTurf": false,
-      "assignedWeek": 2,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -276,8 +278,8 @@
       "category": "Geometry",
       "name": "Polar Coordinates",
       "isHomeTurf": false,
-      "assignedWeek": 2,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 1,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -296,7 +298,7 @@
       "name": "Derivative",
       "isHomeTurf": false,
       "assignedWeek": 2,
-      "assignedDayOfWeek": 3,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -315,7 +317,7 @@
       "name": "Maxima/Minima",
       "isHomeTurf": false,
       "assignedWeek": 2,
-      "assignedDayOfWeek": 3,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -334,7 +336,7 @@
       "name": "Related Rates",
       "isHomeTurf": false,
       "assignedWeek": 2,
-      "assignedDayOfWeek": 4,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -353,7 +355,7 @@
       "name": "Optimization",
       "isHomeTurf": false,
       "assignedWeek": 2,
-      "assignedDayOfWeek": 4,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -372,7 +374,7 @@
       "name": "Antiderivative",
       "isHomeTurf": false,
       "assignedWeek": 2,
-      "assignedDayOfWeek": 5,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -391,7 +393,7 @@
       "name": "Arc Length",
       "isHomeTurf": false,
       "assignedWeek": 2,
-      "assignedDayOfWeek": 5,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -409,8 +411,8 @@
       "category": "Integral Calculus",
       "name": "Solids of Revolution",
       "isHomeTurf": false,
-      "assignedWeek": 3,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -428,8 +430,8 @@
       "category": "Integral Calculus",
       "name": "Centroids/Moment of Inertia",
       "isHomeTurf": false,
-      "assignedWeek": 3,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -447,8 +449,8 @@
       "category": "Economics",
       "name": "Interest and Annuity",
       "isHomeTurf": false,
-      "assignedWeek": 3,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -466,8 +468,8 @@
       "category": "Economics",
       "name": "Depreciation",
       "isHomeTurf": false,
-      "assignedWeek": 3,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -485,8 +487,8 @@
       "category": "Economics",
       "name": "Inflation",
       "isHomeTurf": false,
-      "assignedWeek": 3,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -504,8 +506,8 @@
       "category": "Economics",
       "name": "Return of Investment (ROI)",
       "isHomeTurf": false,
-      "assignedWeek": 3,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -523,8 +525,8 @@
       "category": "Economics",
       "name": "Stocks/Bonds",
       "isHomeTurf": false,
-      "assignedWeek": 3,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -542,8 +544,8 @@
       "category": "Surveying",
       "name": "Measurement",
       "isHomeTurf": true,
-      "assignedWeek": 3,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 2,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -562,7 +564,7 @@
       "name": "Probable Value",
       "isHomeTurf": true,
       "assignedWeek": 3,
-      "assignedDayOfWeek": 5,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -581,7 +583,7 @@
       "name": "Tape Correction",
       "isHomeTurf": true,
       "assignedWeek": 3,
-      "assignedDayOfWeek": 5,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -599,7 +601,7 @@
       "category": "Surveying",
       "name": "Leveling",
       "isHomeTurf": true,
-      "assignedWeek": 4,
+      "assignedWeek": 3,
       "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
@@ -618,8 +620,8 @@
       "category": "Surveying",
       "name": "Curvature and Refraction",
       "isHomeTurf": true,
-      "assignedWeek": 4,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -637,7 +639,7 @@
       "category": "Surveying",
       "name": "Stadia",
       "isHomeTurf": true,
-      "assignedWeek": 4,
+      "assignedWeek": 3,
       "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
@@ -656,7 +658,7 @@
       "category": "Surveying",
       "name": "DMD/DPD",
       "isHomeTurf": true,
-      "assignedWeek": 4,
+      "assignedWeek": 3,
       "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
@@ -675,7 +677,7 @@
       "category": "Surveying",
       "name": "Traverse",
       "isHomeTurf": true,
-      "assignedWeek": 4,
+      "assignedWeek": 3,
       "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
@@ -694,7 +696,7 @@
       "category": "Surveying",
       "name": "Compass/Transit Rule",
       "isHomeTurf": true,
-      "assignedWeek": 4,
+      "assignedWeek": 3,
       "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
@@ -713,8 +715,8 @@
       "category": "Surveying",
       "name": "Horizontal Curve",
       "isHomeTurf": true,
-      "assignedWeek": 4,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -732,7 +734,7 @@
       "category": "Surveying",
       "name": "Vertical Curve",
       "isHomeTurf": true,
-      "assignedWeek": 4,
+      "assignedWeek": 3,
       "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
@@ -751,8 +753,8 @@
       "category": "Surveying",
       "name": "Earthworks",
       "isHomeTurf": true,
-      "assignedWeek": 4,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -770,8 +772,8 @@
       "category": "Transportation Engineering",
       "name": "Accident Analysis",
       "isHomeTurf": true,
-      "assignedWeek": 4,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -789,8 +791,8 @@
       "category": "Transportation Engineering",
       "name": "Pavement Design",
       "isHomeTurf": true,
-      "assignedWeek": 5,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -808,8 +810,8 @@
       "category": "Transportation Engineering",
       "name": "Sight Distance",
       "isHomeTurf": true,
-      "assignedWeek": 5,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 3,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -827,8 +829,8 @@
       "category": "Transportation Engineering",
       "name": "Railroad Engineering",
       "isHomeTurf": true,
-      "assignedWeek": 5,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -846,8 +848,8 @@
       "category": "Transportation Engineering",
       "name": "Ports and Harbor",
       "isHomeTurf": true,
-      "assignedWeek": 5,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -865,8 +867,8 @@
       "category": "Construction Engineering",
       "name": "Construction Methods",
       "isHomeTurf": true,
-      "assignedWeek": 5,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -884,8 +886,8 @@
       "category": "Construction Engineering",
       "name": "COSH",
       "isHomeTurf": true,
-      "assignedWeek": 5,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -903,8 +905,8 @@
       "category": "Construction Engineering",
       "name": "DPWH Manual",
       "isHomeTurf": true,
-      "assignedWeek": 5,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -922,8 +924,8 @@
       "category": "Hydraulics",
       "name": "Water Properties",
       "isHomeTurf": false,
-      "assignedWeek": 5,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -941,8 +943,8 @@
       "category": "Hydraulics",
       "name": "Hydrostatic Pressure",
       "isHomeTurf": false,
-      "assignedWeek": 5,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -960,8 +962,8 @@
       "category": "Hydraulics",
       "name": "Buoyancy",
       "isHomeTurf": false,
-      "assignedWeek": 5,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -979,8 +981,8 @@
       "category": "Hydraulics",
       "name": "Stability of Floating Bodies",
       "isHomeTurf": false,
-      "assignedWeek": 6,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -998,8 +1000,8 @@
       "category": "Hydraulics",
       "name": "Dams",
       "isHomeTurf": false,
-      "assignedWeek": 6,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1017,8 +1019,8 @@
       "category": "Hydraulics",
       "name": "Thin-Walled Pressure Vessels (Hydraulics)",
       "isHomeTurf": false,
-      "assignedWeek": 6,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1036,8 +1038,8 @@
       "category": "Hydraulics",
       "name": "Moving Vessel",
       "isHomeTurf": false,
-      "assignedWeek": 6,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1055,8 +1057,8 @@
       "category": "Hydraulics",
       "name": "Rotating Vessel",
       "isHomeTurf": false,
-      "assignedWeek": 6,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1074,8 +1076,8 @@
       "category": "Hydraulics",
       "name": "Energy Equation",
       "isHomeTurf": false,
-      "assignedWeek": 6,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 4,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1093,8 +1095,8 @@
       "category": "Hydraulics",
       "name": "Head Loss",
       "isHomeTurf": false,
-      "assignedWeek": 6,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1112,8 +1114,8 @@
       "category": "Hydraulics",
       "name": "3 Reservoir Problem",
       "isHomeTurf": false,
-      "assignedWeek": 6,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1131,8 +1133,8 @@
       "category": "Hydraulics",
       "name": "Pipes",
       "isHomeTurf": false,
-      "assignedWeek": 6,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1150,8 +1152,8 @@
       "category": "Hydraulics",
       "name": "Orifice Flow",
       "isHomeTurf": false,
-      "assignedWeek": 6,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1169,8 +1171,8 @@
       "category": "Hydraulics",
       "name": "Weirs",
       "isHomeTurf": false,
-      "assignedWeek": 7,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1188,8 +1190,8 @@
       "category": "Hydraulics",
       "name": "Open Channels",
       "isHomeTurf": false,
-      "assignedWeek": 7,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1207,8 +1209,8 @@
       "category": "Hydraulics",
       "name": "Critical Flow",
       "isHomeTurf": false,
-      "assignedWeek": 7,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1226,8 +1228,8 @@
       "category": "Hydraulics",
       "name": "Non-Uniform Flow",
       "isHomeTurf": false,
-      "assignedWeek": 7,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1245,7 +1247,7 @@
       "category": "Hydraulics",
       "name": "Hydrodynamics",
       "isHomeTurf": false,
-      "assignedWeek": 7,
+      "assignedWeek": 5,
       "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
@@ -1264,8 +1266,8 @@
       "category": "Geotechnical Engineering",
       "name": "Soil Properties",
       "isHomeTurf": false,
-      "assignedWeek": 7,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 5,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1283,7 +1285,7 @@
       "category": "Geotechnical Engineering",
       "name": "Atterberg Limits",
       "isHomeTurf": false,
-      "assignedWeek": 7,
+      "assignedWeek": 5,
       "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
@@ -1302,7 +1304,7 @@
       "category": "Geotechnical Engineering",
       "name": "Seepage",
       "isHomeTurf": false,
-      "assignedWeek": 7,
+      "assignedWeek": 5,
       "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
@@ -1321,7 +1323,7 @@
       "category": "Geotechnical Engineering",
       "name": "Stress",
       "isHomeTurf": false,
-      "assignedWeek": 7,
+      "assignedWeek": 5,
       "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
@@ -1340,7 +1342,7 @@
       "category": "Geotechnical Engineering",
       "name": "Settlement",
       "isHomeTurf": false,
-      "assignedWeek": 7,
+      "assignedWeek": 5,
       "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
@@ -1359,7 +1361,7 @@
       "category": "Geotechnical Engineering",
       "name": "Consolidation",
       "isHomeTurf": false,
-      "assignedWeek": 8,
+      "assignedWeek": 6,
       "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
@@ -1378,7 +1380,7 @@
       "category": "Geotechnical Engineering",
       "name": "Shear Strength",
       "isHomeTurf": false,
-      "assignedWeek": 8,
+      "assignedWeek": 6,
       "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
@@ -1397,8 +1399,8 @@
       "category": "Geotechnical Engineering",
       "name": "Lateral Earth Pressure",
       "isHomeTurf": false,
-      "assignedWeek": 8,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1416,7 +1418,7 @@
       "category": "Geotechnical Engineering",
       "name": "Flow Nets",
       "isHomeTurf": false,
-      "assignedWeek": 8,
+      "assignedWeek": 6,
       "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
@@ -1435,8 +1437,8 @@
       "category": "Geotechnical Engineering",
       "name": "Boussinesq Equation",
       "isHomeTurf": false,
-      "assignedWeek": 8,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1454,8 +1456,8 @@
       "category": "Geotechnical Engineering",
       "name": "Ultimate Bearing Capacity",
       "isHomeTurf": false,
-      "assignedWeek": 8,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1473,8 +1475,8 @@
       "category": "Geotechnical Engineering",
       "name": "Pile Foundation",
       "isHomeTurf": false,
-      "assignedWeek": 8,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1492,8 +1494,8 @@
       "category": "Geotechnical Engineering",
       "name": "Slope Stability",
       "isHomeTurf": false,
-      "assignedWeek": 8,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1511,8 +1513,8 @@
       "category": "Engineering Mechanics",
       "name": "Statics (2D)",
       "isHomeTurf": false,
-      "assignedWeek": 8,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1530,8 +1532,8 @@
       "category": "Engineering Mechanics",
       "name": "Cables and Trusses",
       "isHomeTurf": false,
-      "assignedWeek": 8,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1549,8 +1551,8 @@
       "category": "Engineering Mechanics",
       "name": "Friction",
       "isHomeTurf": false,
-      "assignedWeek": 9,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1568,8 +1570,8 @@
       "category": "Engineering Mechanics",
       "name": "Statics (3D)",
       "isHomeTurf": false,
-      "assignedWeek": 9,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1587,8 +1589,8 @@
       "category": "Engineering Mechanics",
       "name": "Kinematics",
       "isHomeTurf": false,
-      "assignedWeek": 9,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1606,8 +1608,8 @@
       "category": "Engineering Mechanics",
       "name": "Kinetics",
       "isHomeTurf": false,
-      "assignedWeek": 9,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 6,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1625,8 +1627,8 @@
       "category": "Strength of Materials",
       "name": "Stress and Strain",
       "isHomeTurf": false,
-      "assignedWeek": 9,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1644,8 +1646,8 @@
       "category": "Strength of Materials",
       "name": "Thin-Walled Pressure Vessels (Strength)",
       "isHomeTurf": false,
-      "assignedWeek": 9,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1663,8 +1665,8 @@
       "category": "Strength of Materials",
       "name": "Torsion (Strength)",
       "isHomeTurf": false,
-      "assignedWeek": 9,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1682,8 +1684,8 @@
       "category": "Strength of Materials",
       "name": "Helical Spring",
       "isHomeTurf": false,
-      "assignedWeek": 9,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1701,8 +1703,8 @@
       "category": "Strength of Materials",
       "name": "Flexural Stress",
       "isHomeTurf": false,
-      "assignedWeek": 9,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1720,8 +1722,8 @@
       "category": "Strength of Materials",
       "name": "Transverse Shear Stress",
       "isHomeTurf": false,
-      "assignedWeek": 9,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1739,8 +1741,8 @@
       "category": "Strength of Materials",
       "name": "Composite Beams",
       "isHomeTurf": false,
-      "assignedWeek": 10,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1758,8 +1760,8 @@
       "category": "Strength of Materials",
       "name": "Mohr's Circle",
       "isHomeTurf": false,
-      "assignedWeek": 10,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1777,8 +1779,8 @@
       "category": "Theory of Structures",
       "name": "Stability",
       "isHomeTurf": false,
-      "assignedWeek": 10,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1796,8 +1798,8 @@
       "category": "Theory of Structures",
       "name": "Double Integration Method",
       "isHomeTurf": false,
-      "assignedWeek": 10,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1815,8 +1817,8 @@
       "category": "Theory of Structures",
       "name": "Area Moment Method",
       "isHomeTurf": false,
-      "assignedWeek": 10,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1834,8 +1836,8 @@
       "category": "Theory of Structures",
       "name": "Conjugate Beam",
       "isHomeTurf": false,
-      "assignedWeek": 10,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1853,8 +1855,8 @@
       "category": "Theory of Structures",
       "name": "Superposition Method",
       "isHomeTurf": false,
-      "assignedWeek": 10,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1872,8 +1874,8 @@
       "category": "Theory of Structures",
       "name": "Virtual Work: Beams",
       "isHomeTurf": false,
-      "assignedWeek": 10,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 7,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1891,8 +1893,8 @@
       "category": "Theory of Structures",
       "name": "Virtual Work: Trusses",
       "isHomeTurf": false,
-      "assignedWeek": 10,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1910,8 +1912,8 @@
       "category": "Theory of Structures",
       "name": "3 Moment Equation",
       "isHomeTurf": false,
-      "assignedWeek": 10,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1929,7 +1931,7 @@
       "category": "Theory of Structures",
       "name": "Fixed-End Moments",
       "isHomeTurf": false,
-      "assignedWeek": 11,
+      "assignedWeek": 8,
       "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
@@ -1948,8 +1950,8 @@
       "category": "Theory of Structures",
       "name": "Influence Line: Beams",
       "isHomeTurf": false,
-      "assignedWeek": 11,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -1967,7 +1969,7 @@
       "category": "Theory of Structures",
       "name": "Influence Line: Trusses",
       "isHomeTurf": false,
-      "assignedWeek": 11,
+      "assignedWeek": 8,
       "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
@@ -1986,7 +1988,7 @@
       "category": "Steel Design",
       "name": "Shear (Steel)",
       "isHomeTurf": false,
-      "assignedWeek": 11,
+      "assignedWeek": 8,
       "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
@@ -2005,7 +2007,7 @@
       "category": "Steel Design",
       "name": "Bending",
       "isHomeTurf": false,
-      "assignedWeek": 11,
+      "assignedWeek": 8,
       "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
@@ -2024,7 +2026,7 @@
       "category": "Steel Design",
       "name": "Compression Members",
       "isHomeTurf": false,
-      "assignedWeek": 11,
+      "assignedWeek": 8,
       "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
@@ -2043,8 +2045,8 @@
       "category": "Steel Design",
       "name": "Combined Axial and Bending",
       "isHomeTurf": false,
-      "assignedWeek": 11,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2062,7 +2064,7 @@
       "category": "Steel Design",
       "name": "Purlins",
       "isHomeTurf": false,
-      "assignedWeek": 11,
+      "assignedWeek": 8,
       "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
@@ -2081,8 +2083,8 @@
       "category": "Steel Design",
       "name": "Bolts",
       "isHomeTurf": false,
-      "assignedWeek": 11,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2100,8 +2102,8 @@
       "category": "Steel Design",
       "name": "Welds",
       "isHomeTurf": false,
-      "assignedWeek": 11,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2119,8 +2121,8 @@
       "category": "Steel Design",
       "name": "Base Plate",
       "isHomeTurf": false,
-      "assignedWeek": 12,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2138,8 +2140,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Singly-Reinforced",
       "isHomeTurf": false,
-      "assignedWeek": 12,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 8,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2157,8 +2159,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Doubly-Reinforced",
       "isHomeTurf": false,
-      "assignedWeek": 12,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2176,8 +2178,8 @@
       "category": "Reinforced Concrete Design",
       "name": "T-Beams",
       "isHomeTurf": false,
-      "assignedWeek": 12,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2195,8 +2197,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Slabs",
       "isHomeTurf": false,
-      "assignedWeek": 12,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 1,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2214,8 +2216,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Columns",
       "isHomeTurf": false,
-      "assignedWeek": 12,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2233,8 +2235,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Columns with Bending",
       "isHomeTurf": false,
-      "assignedWeek": 12,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2252,8 +2254,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Shear (RC)",
       "isHomeTurf": false,
-      "assignedWeek": 12,
-      "assignedDayOfWeek": 4,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 2,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2271,8 +2273,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Footings",
       "isHomeTurf": false,
-      "assignedWeek": 12,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2290,8 +2292,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Footings with Moments",
       "isHomeTurf": false,
-      "assignedWeek": 12,
-      "assignedDayOfWeek": 5,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2309,8 +2311,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Pile Footings",
       "isHomeTurf": false,
-      "assignedWeek": 13,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 3,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2328,8 +2330,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Development Length",
       "isHomeTurf": false,
-      "assignedWeek": 13,
-      "assignedDayOfWeek": 1,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2347,8 +2349,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Torsion (RC)",
       "isHomeTurf": false,
-      "assignedWeek": 13,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2366,8 +2368,8 @@
       "category": "Reinforced Concrete Design",
       "name": "Prestressed Concrete",
       "isHomeTurf": false,
-      "assignedWeek": 13,
-      "assignedDayOfWeek": 2,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 4,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2385,8 +2387,8 @@
       "category": "Miscellaneous",
       "name": "Seismic Design",
       "isHomeTurf": false,
-      "assignedWeek": 13,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2404,8 +2406,8 @@
       "category": "Miscellaneous",
       "name": "WSD",
       "isHomeTurf": false,
-      "assignedWeek": 13,
-      "assignedDayOfWeek": 3,
+      "assignedWeek": 9,
+      "assignedDayOfWeek": 5,
       "status": "locked",
       "lastReviewed": null,
       "decayDaysThreshold": 7,
@@ -2420,16 +2422,17 @@
   "spiralSchedule": [
     {
       "week": 1,
-      "dateRange": "Oct 12 - Oct 18",
-      "title": "Establishing the Base (Algebra & Trig)",
+      "dateRange": "Nov 9 - Nov 15",
+      "title": "Establishing the Base (Algebra, Trig & Geometry)",
       "days": [
         {
           "day": "Monday",
           "primaryTopicIds": [
             "T-001",
-            "T-002"
+            "T-002",
+            "T-003"
           ],
-          "primaryLabel": "College Math & Series",
+          "primaryLabel": "College Math, Series & Word Problems",
           "spiralTopicIds": [],
           "spiralLabel": "None (Build Base)",
           "primaryCompleted": false,
@@ -2438,10 +2441,11 @@
         {
           "day": "Tuesday",
           "primaryTopicIds": [
-            "T-003",
-            "T-004"
+            "T-004",
+            "T-005",
+            "T-006"
           ],
-          "primaryLabel": "Word Problems & Permutation/Combination",
+          "primaryLabel": "Permutation/Combination, Probability and Statistics & Probability Distribution",
           "spiralTopicIds": [],
           "spiralLabel": "None (Build Base)",
           "primaryCompleted": false,
@@ -2450,10 +2454,11 @@
         {
           "day": "Wednesday",
           "primaryTopicIds": [
-            "T-005",
-            "T-006"
+            "T-007",
+            "T-008",
+            "T-009"
           ],
-          "primaryLabel": "Probability and Statistics & Probability Distribution",
+          "primaryLabel": "Trigonometric Functions, Inscribed/Circumscribed & Spherical Trigonometry",
           "spiralTopicIds": [],
           "spiralLabel": "None (Build Base)",
           "primaryCompleted": false,
@@ -2462,10 +2467,11 @@
         {
           "day": "Thursday",
           "primaryTopicIds": [
-            "T-007",
-            "T-008"
+            "T-010",
+            "T-011",
+            "T-012"
           ],
-          "primaryLabel": "Trigonometric Functions & Inscribed/Circumscribed",
+          "primaryLabel": "Geometry (2D), Geometry (3D) & Circles",
           "spiralTopicIds": [],
           "spiralLabel": "None (Build Base)",
           "primaryCompleted": false,
@@ -2474,10 +2480,10 @@
         {
           "day": "Friday",
           "primaryTopicIds": [
-            "T-009",
-            "T-010"
+            "T-013",
+            "T-014"
           ],
-          "primaryLabel": "Spherical Trigonometry & Geometry (2D)",
+          "primaryLabel": "Conic Sections & Polar Coordinates",
           "spiralTopicIds": [],
           "spiralLabel": "None (Build Base)",
           "primaryCompleted": false,
@@ -2498,81 +2504,89 @@
     },
     {
       "week": 2,
-      "dateRange": "Oct 19 - Oct 25",
-      "title": "The First Spiral (Geometry & Diff Calc)",
+      "dateRange": "Nov 16 - Nov 22",
+      "title": "The First Spiral (Calculus, Economics & Surveying Intro)",
       "days": [
         {
           "day": "Monday",
           "primaryTopicIds": [
-            "T-011",
-            "T-012"
+            "T-015",
+            "T-016",
+            "T-017"
           ],
-          "primaryLabel": "Geometry (3D) & Circles",
+          "primaryLabel": "Derivative, Maxima/Minima & Related Rates",
           "spiralTopicIds": [
             "T-001",
-            "T-002"
+            "T-002",
+            "T-003"
           ],
-          "spiralLabel": "College Math & Series",
+          "spiralLabel": "College Math, Series & Word Problems",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Tuesday",
           "primaryTopicIds": [
-            "T-013",
-            "T-014"
+            "T-018",
+            "T-019",
+            "T-020"
           ],
-          "primaryLabel": "Conic Sections & Polar Coordinates",
+          "primaryLabel": "Optimization, Antiderivative & Arc Length",
           "spiralTopicIds": [
-            "T-003",
-            "T-004"
+            "T-004",
+            "T-005",
+            "T-006"
           ],
-          "spiralLabel": "Word Problems & Permutation/Combination",
+          "spiralLabel": "Permutation/Combination, Probability and Statistics & Probability Distribution",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Wednesday",
           "primaryTopicIds": [
-            "T-015",
-            "T-016"
+            "T-021",
+            "T-022",
+            "T-023"
           ],
-          "primaryLabel": "Derivative & Maxima/Minima",
+          "primaryLabel": "Solids of Revolution, Centroids/Moment of Inertia & Interest and Annuity",
           "spiralTopicIds": [
-            "T-005",
-            "T-006"
+            "T-007",
+            "T-008",
+            "T-009"
           ],
-          "spiralLabel": "Probability and Statistics & Probability Distribution",
+          "spiralLabel": "Trigonometric Functions, Inscribed/Circumscribed & Spherical Trigonometry",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Thursday",
           "primaryTopicIds": [
-            "T-017",
-            "T-018"
+            "T-024",
+            "T-025",
+            "T-026"
           ],
-          "primaryLabel": "Related Rates & Optimization",
+          "primaryLabel": "Depreciation, Inflation & Return of Investment (ROI)",
           "spiralTopicIds": [
-            "T-007",
-            "T-008"
+            "T-010",
+            "T-011",
+            "T-012"
           ],
-          "spiralLabel": "Trigonometric Functions & Inscribed/Circumscribed",
+          "spiralLabel": "Geometry (2D), Geometry (3D) & Circles",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Friday",
           "primaryTopicIds": [
-            "T-019",
-            "T-020"
+            "T-027",
+            "T-028"
           ],
-          "primaryLabel": "Antiderivative & Arc Length",
+          "primaryLabel": "Stocks/Bonds & Measurement",
           "spiralTopicIds": [
-            "T-009",
-            "T-010"
+            "T-013",
+            "T-014"
           ],
-          "spiralLabel": "Spherical Trigonometry & Geometry (2D)",
+          "spiralLabel": "Conic Sections & Polar Coordinates",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
@@ -2591,81 +2605,89 @@
     },
     {
       "week": 3,
-      "dateRange": "Oct 26 - Nov 1",
-      "title": "Economics & Integral Calculus",
+      "dateRange": "Nov 23 - Nov 29",
+      "title": "Home Turf Blitz (Surveying & Transportation 1)",
       "days": [
         {
           "day": "Monday",
           "primaryTopicIds": [
-            "T-021",
-            "T-022"
+            "T-029",
+            "T-030",
+            "T-031"
           ],
-          "primaryLabel": "Solids of Revolution & Centroids/Moment of Inertia",
+          "primaryLabel": "Probable Value, Tape Correction & Leveling",
           "spiralTopicIds": [
-            "T-011",
-            "T-012"
+            "T-015",
+            "T-016",
+            "T-017"
           ],
-          "spiralLabel": "Geometry (3D) & Circles",
+          "spiralLabel": "Derivative, Maxima/Minima & Related Rates",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Tuesday",
           "primaryTopicIds": [
-            "T-023",
-            "T-024"
+            "T-032",
+            "T-033",
+            "T-034"
           ],
-          "primaryLabel": "Interest and Annuity & Depreciation",
+          "primaryLabel": "Curvature and Refraction, Stadia & DMD/DPD",
           "spiralTopicIds": [
-            "T-013",
-            "T-014"
+            "T-018",
+            "T-019",
+            "T-020"
           ],
-          "spiralLabel": "Conic Sections & Polar Coordinates",
+          "spiralLabel": "Optimization, Antiderivative & Arc Length",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Wednesday",
           "primaryTopicIds": [
-            "T-025",
-            "T-026"
+            "T-035",
+            "T-036",
+            "T-037"
           ],
-          "primaryLabel": "Inflation & Return of Investment (ROI)",
+          "primaryLabel": "Traverse, Compass/Transit Rule & Horizontal Curve",
           "spiralTopicIds": [
-            "T-015",
-            "T-016"
+            "T-021",
+            "T-022",
+            "T-023"
           ],
-          "spiralLabel": "Derivative & Maxima/Minima",
+          "spiralLabel": "Solids of Revolution, Centroids/Moment of Inertia & Interest and Annuity",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Thursday",
           "primaryTopicIds": [
-            "T-027",
-            "T-028"
+            "T-038",
+            "T-039",
+            "T-040"
           ],
-          "primaryLabel": "Stocks/Bonds & Measurement",
+          "primaryLabel": "Vertical Curve, Earthworks & Accident Analysis",
           "spiralTopicIds": [
-            "T-017",
-            "T-018"
+            "T-024",
+            "T-025",
+            "T-026"
           ],
-          "spiralLabel": "Related Rates & Optimization",
+          "spiralLabel": "Depreciation, Inflation & Return of Investment (ROI)",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Friday",
           "primaryTopicIds": [
-            "T-029",
-            "T-030"
+            "T-041",
+            "T-042"
           ],
-          "primaryLabel": "Probable Value & Tape Correction",
+          "primaryLabel": "Pavement Design & Sight Distance",
           "spiralTopicIds": [
-            "T-019",
-            "T-020"
+            "T-027",
+            "T-028"
           ],
-          "spiralLabel": "Antiderivative & Arc Length",
+          "spiralLabel": "Stocks/Bonds & Measurement",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
@@ -2684,81 +2706,89 @@
     },
     {
       "week": 4,
-      "dateRange": "Nov 2 - Nov 8",
-      "title": "Surveying & Transportation",
+      "dateRange": "Nov 30 - Dec 6",
+      "title": "Transpo, Construction & Hydraulics 1",
       "days": [
         {
           "day": "Monday",
           "primaryTopicIds": [
-            "T-031",
-            "T-032"
+            "T-043",
+            "T-044",
+            "T-045"
           ],
-          "primaryLabel": "Leveling & Curvature and Refraction",
+          "primaryLabel": "Railroad Engineering, Ports and Harbor & Construction Methods",
           "spiralTopicIds": [
-            "T-021",
-            "T-022"
+            "T-029",
+            "T-030",
+            "T-031"
           ],
-          "spiralLabel": "Solids of Revolution & Centroids/Moment of Inertia",
+          "spiralLabel": "Probable Value, Tape Correction & Leveling",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Tuesday",
           "primaryTopicIds": [
+            "T-046",
+            "T-047",
+            "T-048"
+          ],
+          "primaryLabel": "COSH, DPWH Manual & Water Properties",
+          "spiralTopicIds": [
+            "T-032",
             "T-033",
             "T-034"
           ],
-          "primaryLabel": "Stadia & DMD/DPD",
-          "spiralTopicIds": [
-            "T-023",
-            "T-024"
-          ],
-          "spiralLabel": "Interest and Annuity & Depreciation",
+          "spiralLabel": "Curvature and Refraction, Stadia & DMD/DPD",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Wednesday",
           "primaryTopicIds": [
-            "T-035",
-            "T-036"
+            "T-049",
+            "T-050",
+            "T-051"
           ],
-          "primaryLabel": "Traverse & Compass/Transit Rule",
+          "primaryLabel": "Hydrostatic Pressure, Buoyancy & Stability of Floating Bodies",
           "spiralTopicIds": [
-            "T-025",
-            "T-026"
+            "T-035",
+            "T-036",
+            "T-037"
           ],
-          "spiralLabel": "Inflation & Return of Investment (ROI)",
+          "spiralLabel": "Traverse, Compass/Transit Rule & Horizontal Curve",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Thursday",
           "primaryTopicIds": [
-            "T-037",
-            "T-038"
+            "T-052",
+            "T-053",
+            "T-054"
           ],
-          "primaryLabel": "Horizontal Curve & Vertical Curve",
+          "primaryLabel": "Dams, Thin-Walled Pressure Vessels (Hydraulics) & Moving Vessel",
           "spiralTopicIds": [
-            "T-027",
-            "T-028"
+            "T-038",
+            "T-039",
+            "T-040"
           ],
-          "spiralLabel": "Stocks/Bonds & Measurement",
+          "spiralLabel": "Vertical Curve, Earthworks & Accident Analysis",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Friday",
           "primaryTopicIds": [
-            "T-039",
-            "T-040"
+            "T-055",
+            "T-056"
           ],
-          "primaryLabel": "Earthworks & Accident Analysis",
+          "primaryLabel": "Rotating Vessel & Energy Equation",
           "spiralTopicIds": [
-            "T-029",
-            "T-030"
+            "T-041",
+            "T-042"
           ],
-          "spiralLabel": "Probable Value & Tape Correction",
+          "spiralLabel": "Pavement Design & Sight Distance",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
@@ -2777,81 +2807,89 @@
     },
     {
       "week": 5,
-      "dateRange": "Nov 9 - Nov 15",
-      "title": "Transpo, Construction & Hydraulics 1",
+      "dateRange": "Dec 7 - Dec 13",
+      "title": "Hydraulics 2 & Geotechnical 1",
       "days": [
         {
           "day": "Monday",
           "primaryTopicIds": [
-            "T-041",
-            "T-042"
+            "T-057",
+            "T-058",
+            "T-059"
           ],
-          "primaryLabel": "Pavement Design & Sight Distance",
+          "primaryLabel": "Head Loss, 3 Reservoir Problem & Pipes",
           "spiralTopicIds": [
-            "T-031",
-            "T-032"
+            "T-043",
+            "T-044",
+            "T-045"
           ],
-          "spiralLabel": "Leveling & Curvature and Refraction",
+          "spiralLabel": "Railroad Engineering, Ports and Harbor & Construction Methods",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Tuesday",
           "primaryTopicIds": [
-            "T-043",
-            "T-044"
+            "T-060",
+            "T-061",
+            "T-062"
           ],
-          "primaryLabel": "Railroad Engineering & Ports and Harbor",
+          "primaryLabel": "Orifice Flow, Weirs & Open Channels",
           "spiralTopicIds": [
-            "T-033",
-            "T-034"
+            "T-046",
+            "T-047",
+            "T-048"
           ],
-          "spiralLabel": "Stadia & DMD/DPD",
+          "spiralLabel": "COSH, DPWH Manual & Water Properties",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Wednesday",
           "primaryTopicIds": [
-            "T-045",
-            "T-046"
+            "T-063",
+            "T-064",
+            "T-065"
           ],
-          "primaryLabel": "Construction Methods & COSH",
+          "primaryLabel": "Critical Flow, Non-Uniform Flow & Hydrodynamics",
           "spiralTopicIds": [
-            "T-035",
-            "T-036"
+            "T-049",
+            "T-050",
+            "T-051"
           ],
-          "spiralLabel": "Traverse & Compass/Transit Rule",
+          "spiralLabel": "Hydrostatic Pressure, Buoyancy & Stability of Floating Bodies",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Thursday",
           "primaryTopicIds": [
-            "T-047",
-            "T-048"
+            "T-066",
+            "T-067",
+            "T-068"
           ],
-          "primaryLabel": "DPWH Manual & Water Properties",
+          "primaryLabel": "Soil Properties, Atterberg Limits & Seepage",
           "spiralTopicIds": [
-            "T-037",
-            "T-038"
+            "T-052",
+            "T-053",
+            "T-054"
           ],
-          "spiralLabel": "Horizontal Curve & Vertical Curve",
+          "spiralLabel": "Dams, Thin-Walled Pressure Vessels (Hydraulics) & Moving Vessel",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Friday",
           "primaryTopicIds": [
-            "T-049",
-            "T-050"
+            "T-069",
+            "T-070"
           ],
-          "primaryLabel": "Hydrostatic Pressure & Buoyancy",
+          "primaryLabel": "Stress & Settlement",
           "spiralTopicIds": [
-            "T-039",
-            "T-040"
+            "T-055",
+            "T-056"
           ],
-          "spiralLabel": "Earthworks & Accident Analysis",
+          "spiralLabel": "Rotating Vessel & Energy Equation",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
@@ -2870,81 +2908,89 @@
     },
     {
       "week": 6,
-      "dateRange": "Nov 16 - Nov 22",
-      "title": "Hydraulics 2",
+      "dateRange": "Dec 14 - Dec 20",
+      "title": "Geotechnical 2 & Eng Mechanics (Pre-Holiday Finale)",
       "days": [
         {
           "day": "Monday",
           "primaryTopicIds": [
-            "T-051",
-            "T-052"
+            "T-071",
+            "T-072",
+            "T-073"
           ],
-          "primaryLabel": "Stability of Floating Bodies & Dams",
+          "primaryLabel": "Consolidation, Shear Strength & Lateral Earth Pressure",
           "spiralTopicIds": [
-            "T-041",
-            "T-042"
+            "T-057",
+            "T-058",
+            "T-059"
           ],
-          "spiralLabel": "Pavement Design & Sight Distance",
+          "spiralLabel": "Head Loss, 3 Reservoir Problem & Pipes",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Tuesday",
           "primaryTopicIds": [
-            "T-053",
-            "T-054"
+            "T-074",
+            "T-075",
+            "T-076"
           ],
-          "primaryLabel": "Thin-Walled Pressure Vessels (Hydraulics) & Moving Vessel",
+          "primaryLabel": "Flow Nets, Boussinesq Equation & Ultimate Bearing Capacity",
           "spiralTopicIds": [
-            "T-043",
-            "T-044"
+            "T-060",
+            "T-061",
+            "T-062"
           ],
-          "spiralLabel": "Railroad Engineering & Ports and Harbor",
+          "spiralLabel": "Orifice Flow, Weirs & Open Channels",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Wednesday",
           "primaryTopicIds": [
-            "T-055",
-            "T-056"
+            "T-077",
+            "T-078",
+            "T-079"
           ],
-          "primaryLabel": "Rotating Vessel & Energy Equation",
+          "primaryLabel": "Pile Foundation, Slope Stability & Statics (2D)",
           "spiralTopicIds": [
-            "T-045",
-            "T-046"
+            "T-063",
+            "T-064",
+            "T-065"
           ],
-          "spiralLabel": "Construction Methods & COSH",
+          "spiralLabel": "Critical Flow, Non-Uniform Flow & Hydrodynamics",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Thursday",
           "primaryTopicIds": [
-            "T-057",
-            "T-058"
+            "T-080",
+            "T-081",
+            "T-082"
           ],
-          "primaryLabel": "Head Loss & 3 Reservoir Problem",
+          "primaryLabel": "Cables and Trusses, Friction & Statics (3D)",
           "spiralTopicIds": [
-            "T-047",
-            "T-048"
+            "T-066",
+            "T-067",
+            "T-068"
           ],
-          "spiralLabel": "DPWH Manual & Water Properties",
+          "spiralLabel": "Soil Properties, Atterberg Limits & Seepage",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Friday",
           "primaryTopicIds": [
-            "T-059",
-            "T-060"
+            "T-083",
+            "T-084"
           ],
-          "primaryLabel": "Pipes & Orifice Flow",
+          "primaryLabel": "Kinematics & Kinetics",
           "spiralTopicIds": [
-            "T-049",
-            "T-050"
+            "T-069",
+            "T-070"
           ],
-          "spiralLabel": "Hydrostatic Pressure & Buoyancy",
+          "spiralLabel": "Stress & Settlement",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
@@ -2963,81 +3009,89 @@
     },
     {
       "week": 7,
-      "dateRange": "Nov 23 - Nov 29",
-      "title": "Hydraulics 3 & Geotechnical 1",
+      "dateRange": "Jan 4 - Jan 10",
+      "title": "Strength of Materials & Theory 1 (Post-Holiday Reset)",
       "days": [
         {
           "day": "Monday",
           "primaryTopicIds": [
-            "T-061",
-            "T-062"
+            "T-085",
+            "T-086",
+            "T-087"
           ],
-          "primaryLabel": "Weirs & Open Channels",
+          "primaryLabel": "Stress and Strain, Thin-Walled Pressure Vessels (Strength) & Torsion (Strength)",
           "spiralTopicIds": [
-            "T-051",
-            "T-052"
+            "T-071",
+            "T-072",
+            "T-073"
           ],
-          "spiralLabel": "Stability of Floating Bodies & Dams",
+          "spiralLabel": "Consolidation, Shear Strength & Lateral Earth Pressure",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Tuesday",
           "primaryTopicIds": [
-            "T-063",
-            "T-064"
+            "T-088",
+            "T-089",
+            "T-090"
           ],
-          "primaryLabel": "Critical Flow & Non-Uniform Flow",
+          "primaryLabel": "Helical Spring, Flexural Stress & Transverse Shear Stress",
           "spiralTopicIds": [
-            "T-053",
-            "T-054"
+            "T-074",
+            "T-075",
+            "T-076"
           ],
-          "spiralLabel": "Thin-Walled Pressure Vessels (Hydraulics) & Moving Vessel",
+          "spiralLabel": "Flow Nets, Boussinesq Equation & Ultimate Bearing Capacity",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Wednesday",
           "primaryTopicIds": [
-            "T-065",
-            "T-066"
+            "T-091",
+            "T-092",
+            "T-093"
           ],
-          "primaryLabel": "Hydrodynamics & Soil Properties",
+          "primaryLabel": "Composite Beams, Mohr's Circle & Stability",
           "spiralTopicIds": [
-            "T-055",
-            "T-056"
+            "T-077",
+            "T-078",
+            "T-079"
           ],
-          "spiralLabel": "Rotating Vessel & Energy Equation",
+          "spiralLabel": "Pile Foundation, Slope Stability & Statics (2D)",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Thursday",
           "primaryTopicIds": [
-            "T-067",
-            "T-068"
+            "T-094",
+            "T-095",
+            "T-096"
           ],
-          "primaryLabel": "Atterberg Limits & Seepage",
+          "primaryLabel": "Double Integration Method, Area Moment Method & Conjugate Beam",
           "spiralTopicIds": [
-            "T-057",
-            "T-058"
+            "T-080",
+            "T-081",
+            "T-082"
           ],
-          "spiralLabel": "Head Loss & 3 Reservoir Problem",
+          "spiralLabel": "Cables and Trusses, Friction & Statics (3D)",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Friday",
           "primaryTopicIds": [
-            "T-069",
-            "T-070"
+            "T-097",
+            "T-098"
           ],
-          "primaryLabel": "Stress & Settlement",
+          "primaryLabel": "Superposition Method & Virtual Work: Beams",
           "spiralTopicIds": [
-            "T-059",
-            "T-060"
+            "T-083",
+            "T-084"
           ],
-          "spiralLabel": "Pipes & Orifice Flow",
+          "spiralLabel": "Kinematics & Kinetics",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
@@ -3056,81 +3110,89 @@
     },
     {
       "week": 8,
-      "dateRange": "Nov 30 - Dec 6",
-      "title": "Geotechnical 2 & Eng Mechanics",
+      "dateRange": "Jan 11 - Jan 17",
+      "title": "Theory 2, Steel Design & RC Intro",
       "days": [
         {
           "day": "Monday",
           "primaryTopicIds": [
-            "T-071",
-            "T-072"
+            "T-099",
+            "T-100",
+            "T-101"
           ],
-          "primaryLabel": "Consolidation & Shear Strength",
+          "primaryLabel": "Virtual Work: Trusses, 3 Moment Equation & Fixed-End Moments",
           "spiralTopicIds": [
-            "T-061",
-            "T-062"
+            "T-085",
+            "T-086",
+            "T-087"
           ],
-          "spiralLabel": "Weirs & Open Channels",
+          "spiralLabel": "Stress and Strain, Thin-Walled Pressure Vessels (Strength) & Torsion (Strength)",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Tuesday",
           "primaryTopicIds": [
-            "T-073",
-            "T-074"
+            "T-102",
+            "T-103",
+            "T-104"
           ],
-          "primaryLabel": "Lateral Earth Pressure & Flow Nets",
+          "primaryLabel": "Influence Line: Beams, Influence Line: Trusses & Shear (Steel)",
           "spiralTopicIds": [
-            "T-063",
-            "T-064"
+            "T-088",
+            "T-089",
+            "T-090"
           ],
-          "spiralLabel": "Critical Flow & Non-Uniform Flow",
+          "spiralLabel": "Helical Spring, Flexural Stress & Transverse Shear Stress",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Wednesday",
           "primaryTopicIds": [
-            "T-075",
-            "T-076"
+            "T-105",
+            "T-106",
+            "T-107"
           ],
-          "primaryLabel": "Boussinesq Equation & Ultimate Bearing Capacity",
+          "primaryLabel": "Bending, Compression Members & Combined Axial and Bending",
           "spiralTopicIds": [
-            "T-065",
-            "T-066"
+            "T-091",
+            "T-092",
+            "T-093"
           ],
-          "spiralLabel": "Hydrodynamics & Soil Properties",
+          "spiralLabel": "Composite Beams, Mohr's Circle & Stability",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Thursday",
           "primaryTopicIds": [
-            "T-077",
-            "T-078"
+            "T-108",
+            "T-109",
+            "T-110"
           ],
-          "primaryLabel": "Pile Foundation & Slope Stability",
+          "primaryLabel": "Purlins, Bolts & Welds",
           "spiralTopicIds": [
-            "T-067",
-            "T-068"
+            "T-094",
+            "T-095",
+            "T-096"
           ],
-          "spiralLabel": "Atterberg Limits & Seepage",
+          "spiralLabel": "Double Integration Method, Area Moment Method & Conjugate Beam",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Friday",
           "primaryTopicIds": [
-            "T-079",
-            "T-080"
+            "T-111",
+            "T-112"
           ],
-          "primaryLabel": "Statics (2D) & Cables and Trusses",
+          "primaryLabel": "Base Plate & Singly-Reinforced",
           "spiralTopicIds": [
-            "T-069",
-            "T-070"
+            "T-097",
+            "T-098"
           ],
-          "spiralLabel": "Stress & Settlement",
+          "spiralLabel": "Superposition Method & Virtual Work: Beams",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
@@ -3149,81 +3211,89 @@
     },
     {
       "week": 9,
-      "dateRange": "Dec 7 - Dec 13",
-      "title": "Eng Mechanics & Strength of Materials",
+      "dateRange": "Jan 18 - Jan 24",
+      "title": "Reinforced Concrete Design, Seismic & WSD",
       "days": [
         {
           "day": "Monday",
           "primaryTopicIds": [
-            "T-081",
-            "T-082"
+            "T-113",
+            "T-114",
+            "T-115"
           ],
-          "primaryLabel": "Friction & Statics (3D)",
+          "primaryLabel": "Doubly-Reinforced, T-Beams & Slabs",
           "spiralTopicIds": [
-            "T-071",
-            "T-072"
+            "T-099",
+            "T-100",
+            "T-101"
           ],
-          "spiralLabel": "Consolidation & Shear Strength",
+          "spiralLabel": "Virtual Work: Trusses, 3 Moment Equation & Fixed-End Moments",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Tuesday",
           "primaryTopicIds": [
-            "T-083",
-            "T-084"
+            "T-116",
+            "T-117",
+            "T-118"
           ],
-          "primaryLabel": "Kinematics & Kinetics",
+          "primaryLabel": "Columns, Columns with Bending & Shear (RC)",
           "spiralTopicIds": [
-            "T-073",
-            "T-074"
+            "T-102",
+            "T-103",
+            "T-104"
           ],
-          "spiralLabel": "Lateral Earth Pressure & Flow Nets",
+          "spiralLabel": "Influence Line: Beams, Influence Line: Trusses & Shear (Steel)",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Wednesday",
           "primaryTopicIds": [
-            "T-085",
-            "T-086"
+            "T-119",
+            "T-120",
+            "T-121"
           ],
-          "primaryLabel": "Stress and Strain & Thin-Walled Pressure Vessels (Strength)",
+          "primaryLabel": "Footings, Footings with Moments & Pile Footings",
           "spiralTopicIds": [
-            "T-075",
-            "T-076"
+            "T-105",
+            "T-106",
+            "T-107"
           ],
-          "spiralLabel": "Boussinesq Equation & Ultimate Bearing Capacity",
+          "spiralLabel": "Bending, Compression Members & Combined Axial and Bending",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Thursday",
           "primaryTopicIds": [
-            "T-087",
-            "T-088"
+            "T-122",
+            "T-123",
+            "T-124"
           ],
-          "primaryLabel": "Torsion (Strength) & Helical Spring",
+          "primaryLabel": "Development Length, Torsion (RC) & Prestressed Concrete",
           "spiralTopicIds": [
-            "T-077",
-            "T-078"
+            "T-108",
+            "T-109",
+            "T-110"
           ],
-          "spiralLabel": "Pile Foundation & Slope Stability",
+          "spiralLabel": "Purlins, Bolts & Welds",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
         {
           "day": "Friday",
           "primaryTopicIds": [
-            "T-089",
-            "T-090"
+            "T-125",
+            "T-126"
           ],
-          "primaryLabel": "Flexural Stress & Transverse Shear Stress",
+          "primaryLabel": "Seismic Design & WSD",
           "spiralTopicIds": [
-            "T-079",
-            "T-080"
+            "T-111",
+            "T-112"
           ],
-          "spiralLabel": "Statics (2D) & Cables and Trusses",
+          "spiralLabel": "Base Plate & Singly-Reinforced",
           "primaryCompleted": false,
           "spiralCompleted": false
         },
@@ -3242,404 +3312,72 @@
     },
     {
       "week": 10,
-      "dateRange": "Dec 14 - Dec 20",
-      "title": "Strength 2 & Theory of Structures 1",
-      "days": [
-        {
-          "day": "Monday",
-          "primaryTopicIds": [
-            "T-091",
-            "T-092"
-          ],
-          "primaryLabel": "Composite Beams & Mohr's Circle",
-          "spiralTopicIds": [
-            "T-081",
-            "T-082"
-          ],
-          "spiralLabel": "Friction & Statics (3D)",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Tuesday",
-          "primaryTopicIds": [
-            "T-093",
-            "T-094"
-          ],
-          "primaryLabel": "Stability & Double Integration Method",
-          "spiralTopicIds": [
-            "T-083",
-            "T-084"
-          ],
-          "spiralLabel": "Kinematics & Kinetics",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Wednesday",
-          "primaryTopicIds": [
-            "T-095",
-            "T-096"
-          ],
-          "primaryLabel": "Area Moment Method & Conjugate Beam",
-          "spiralTopicIds": [
-            "T-085",
-            "T-086"
-          ],
-          "spiralLabel": "Stress and Strain & Thin-Walled Pressure Vessels (Strength)",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Thursday",
-          "primaryTopicIds": [
-            "T-097",
-            "T-098"
-          ],
-          "primaryLabel": "Superposition Method & Virtual Work: Beams",
-          "spiralTopicIds": [
-            "T-087",
-            "T-088"
-          ],
-          "spiralLabel": "Torsion (Strength) & Helical Spring",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Friday",
-          "primaryTopicIds": [
-            "T-099",
-            "T-100"
-          ],
-          "primaryLabel": "Virtual Work: Trusses & 3 Moment Equation",
-          "spiralTopicIds": [
-            "T-089",
-            "T-090"
-          ],
-          "spiralLabel": "Flexural Stress & Transverse Shear Stress",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Saturday",
-          "type": "Weekly Eval",
-          "evalMix": "80% W10 / 20% W9",
-          "completed": false
-        },
-        {
-          "day": "Sunday",
-          "type": "Rest",
-          "completed": false
-        }
-      ]
-    },
-    {
-      "week": 11,
-      "dateRange": "Jan 4 - Jan 10",
-      "title": "Theory 2 & Steel Design (Post-Holiday Reset)",
-      "days": [
-        {
-          "day": "Monday",
-          "primaryTopicIds": [
-            "T-101",
-            "T-102"
-          ],
-          "primaryLabel": "Fixed-End Moments & Influence Line: Beams",
-          "spiralTopicIds": [
-            "T-091",
-            "T-092"
-          ],
-          "spiralLabel": "Composite Beams & Mohr's Circle",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Tuesday",
-          "primaryTopicIds": [
-            "T-103",
-            "T-104"
-          ],
-          "primaryLabel": "Influence Line: Trusses & Shear (Steel)",
-          "spiralTopicIds": [
-            "T-093",
-            "T-094"
-          ],
-          "spiralLabel": "Stability & Double Integration Method",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Wednesday",
-          "primaryTopicIds": [
-            "T-105",
-            "T-106"
-          ],
-          "primaryLabel": "Bending & Compression Members",
-          "spiralTopicIds": [
-            "T-095",
-            "T-096"
-          ],
-          "spiralLabel": "Area Moment Method & Conjugate Beam",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Thursday",
-          "primaryTopicIds": [
-            "T-107",
-            "T-108"
-          ],
-          "primaryLabel": "Combined Axial and Bending & Purlins",
-          "spiralTopicIds": [
-            "T-097",
-            "T-098"
-          ],
-          "spiralLabel": "Superposition Method & Virtual Work: Beams",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Friday",
-          "primaryTopicIds": [
-            "T-109",
-            "T-110"
-          ],
-          "primaryLabel": "Bolts & Welds",
-          "spiralTopicIds": [
-            "T-099",
-            "T-100"
-          ],
-          "spiralLabel": "Virtual Work: Trusses & 3 Moment Equation",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Saturday",
-          "type": "Weekly Eval",
-          "evalMix": "80% W11 / 20% W10",
-          "completed": false
-        },
-        {
-          "day": "Sunday",
-          "type": "Rest",
-          "completed": false
-        }
-      ]
-    },
-    {
-      "week": 12,
-      "dateRange": "Jan 11 - Jan 17",
-      "title": "Steel 2 & Reinforced Concrete 1",
-      "days": [
-        {
-          "day": "Monday",
-          "primaryTopicIds": [
-            "T-111",
-            "T-112"
-          ],
-          "primaryLabel": "Base Plate & Singly-Reinforced",
-          "spiralTopicIds": [
-            "T-101",
-            "T-102"
-          ],
-          "spiralLabel": "Fixed-End Moments & Influence Line: Beams",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Tuesday",
-          "primaryTopicIds": [
-            "T-113",
-            "T-114"
-          ],
-          "primaryLabel": "Doubly-Reinforced & T-Beams",
-          "spiralTopicIds": [
-            "T-103",
-            "T-104"
-          ],
-          "spiralLabel": "Influence Line: Trusses & Shear (Steel)",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Wednesday",
-          "primaryTopicIds": [
-            "T-115",
-            "T-116"
-          ],
-          "primaryLabel": "Slabs & Columns",
-          "spiralTopicIds": [
-            "T-105",
-            "T-106"
-          ],
-          "spiralLabel": "Bending & Compression Members",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Thursday",
-          "primaryTopicIds": [
-            "T-117",
-            "T-118"
-          ],
-          "primaryLabel": "Columns with Bending & Shear (RC)",
-          "spiralTopicIds": [
-            "T-107",
-            "T-108"
-          ],
-          "spiralLabel": "Combined Axial and Bending & Purlins",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Friday",
-          "primaryTopicIds": [
-            "T-119",
-            "T-120"
-          ],
-          "primaryLabel": "Footings & Footings with Moments",
-          "spiralTopicIds": [
-            "T-109",
-            "T-110"
-          ],
-          "spiralLabel": "Bolts & Welds",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Saturday",
-          "type": "Weekly Eval",
-          "evalMix": "80% W12 / 20% W11",
-          "completed": false
-        },
-        {
-          "day": "Sunday",
-          "type": "Rest",
-          "completed": false
-        }
-      ]
-    },
-    {
-      "week": 13,
-      "dateRange": "Jan 18 - Jan 24",
-      "title": "Reinforced Concrete 2 & Misc",
-      "days": [
-        {
-          "day": "Monday",
-          "primaryTopicIds": [
-            "T-121",
-            "T-122"
-          ],
-          "primaryLabel": "Pile Footings & Development Length",
-          "spiralTopicIds": [
-            "T-111",
-            "T-112"
-          ],
-          "spiralLabel": "Base Plate & Singly-Reinforced",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Tuesday",
-          "primaryTopicIds": [
-            "T-123",
-            "T-124"
-          ],
-          "primaryLabel": "Torsion (RC) & Prestressed Concrete",
-          "spiralTopicIds": [
-            "T-113",
-            "T-114"
-          ],
-          "spiralLabel": "Doubly-Reinforced & T-Beams",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Wednesday",
-          "primaryTopicIds": [
-            "T-125",
-            "T-126"
-          ],
-          "primaryLabel": "Seismic Design & WSD",
-          "spiralTopicIds": [
-            "T-115",
-            "T-116"
-          ],
-          "spiralLabel": "Slabs & Columns",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Thursday",
-          "primaryTopicIds": [],
-          "primaryLabel": "Buffer Day / Weakness Review",
-          "spiralTopicIds": [
-            "T-117",
-            "T-118"
-          ],
-          "spiralLabel": "Columns with Bending & Shear (RC)",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Friday",
-          "primaryTopicIds": [],
-          "primaryLabel": "Buffer Day / Weakness Review",
-          "spiralTopicIds": [
-            "T-119",
-            "T-120"
-          ],
-          "spiralLabel": "Footings & Footings with Moments",
-          "primaryCompleted": false,
-          "spiralCompleted": false
-        },
-        {
-          "day": "Saturday",
-          "type": "Weekly Eval",
-          "evalMix": "80% W13 / 20% W12",
-          "completed": false
-        },
-        {
-          "day": "Sunday",
-          "type": "Rest",
-          "completed": false
-        }
-      ]
-    },
-    {
-      "week": 14,
       "dateRange": "Jan 25 - Jan 31",
       "title": "Final Integration & Board Prep Blitz",
       "days": [
         {
           "day": "Monday",
+          "primaryTopicIds": [],
           "primaryLabel": "Full MSTE Block Integration Exam (Self-Spiraling)",
-          "spiralLabel": "Full Curriculum",
-          "completed": false
+          "spiralTopicIds": [
+            "T-113",
+            "T-114",
+            "T-115"
+          ],
+          "spiralLabel": "Doubly-Reinforced, T-Beams & Slabs",
+          "primaryCompleted": false,
+          "spiralCompleted": false
         },
         {
           "day": "Tuesday",
+          "primaryTopicIds": [],
           "primaryLabel": "Full HPGE Block Integration Exam (Self-Spiraling)",
-          "spiralLabel": "Full Curriculum",
-          "completed": false
+          "spiralTopicIds": [
+            "T-116",
+            "T-117",
+            "T-118"
+          ],
+          "spiralLabel": "Columns, Columns with Bending & Shear (RC)",
+          "primaryCompleted": false,
+          "spiralCompleted": false
         },
         {
           "day": "Wednesday",
+          "primaryTopicIds": [],
           "primaryLabel": "Full PSAD Block Integration Exam (Self-Spiraling)",
-          "spiralLabel": "Full Curriculum",
-          "completed": false
+          "spiralTopicIds": [
+            "T-119",
+            "T-120",
+            "T-121"
+          ],
+          "spiralLabel": "Footings, Footings with Moments & Pile Footings",
+          "primaryCompleted": false,
+          "spiralCompleted": false
         },
         {
           "day": "Thursday",
+          "primaryTopicIds": [],
           "primaryLabel": "Final Readiness Eval (Weakness Autopsies)",
-          "spiralLabel": "Full Curriculum",
-          "completed": false
+          "spiralTopicIds": [
+            "T-122",
+            "T-123",
+            "T-124"
+          ],
+          "spiralLabel": "Development Length, Torsion (RC) & Prestressed Concrete",
+          "primaryCompleted": false,
+          "spiralCompleted": false
         },
         {
           "day": "Friday",
+          "primaryTopicIds": [],
           "primaryLabel": "Final Readiness Eval (Weakness Autopsies)",
-          "spiralLabel": "Full Curriculum",
-          "completed": false
+          "spiralTopicIds": [
+            "T-125",
+            "T-126"
+          ],
+          "spiralLabel": "Seismic Design & WSD",
+          "primaryCompleted": false,
+          "spiralCompleted": false
         },
         {
           "day": "Saturday",

@@ -11,7 +11,8 @@ Offline-first, gamified **Civil Engineering Licensure Exam (CELE)** review Progr
   - **MSTE** (47 topics, including 20 Home Turf nodes `T-028`–`T-047`)
   - **HPGE** (31 topics)
   - **PSAD** (48 topics)
-- **14-Week Spiral War Plan & Daily 30-Minute Spiral Loop**:
+- **10-Week Compressed Spiral War Plan (Nov 9, 2026 – Jan 31, 2027) & Daily 30-Minute Spiral Loop**:
+  - Compresses all 126 KIPPAP topics across Weeks 1–9 (`14 topics/week` = `3/3/3/3/2` Mon–Fri) + Week 10 Integration & Spiral Blitz, preserving the `Dec 21 – Jan 3` Mandatory Cognitive Recovery shutdown.
   - Dual 15-minute drift-proof countdown timers (**Primary Target** + **7–14 Day Spiral Target**) with Wake Lock and background timestamp sync for iPad Split View alongside GoodNotes / Notability.
 - **3-Stage Multi-Stage Unlock Engine (`±1%` Tolerance)**:
   - Stage 1: Governing equation / FBD condition
